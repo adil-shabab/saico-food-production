@@ -82,3 +82,22 @@ a:hover{
     color: black;
 }
 /* navbar css end */
+
+
+/* slider css start  */
+#carouselExampleIndicators .carousel-inner{
+    height: 83vh;
+}
+.carousel-indicators [data-bs-target].active{
+    background-color: #ED1B24 !important;
+}
+@media screen and (max-width: 992px) {
+    #carouselExampleIndicators .carousel-inner{
+        height: auto;
+    }
+    #carouselExampleIndicators .carousel-control-next,
+    #carouselExampleIndicators .carousel-control-prev{
+        display: none;
+    }
+}
+/* slider css end  */
