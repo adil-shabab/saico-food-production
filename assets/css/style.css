@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* global css  */
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* top navbar css start  */
+.top-navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    background: #ED1B24;
+    color: white;
+}
+.top-navbar .left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-navbar .left-section i{
+    margin-right: 8px;
+}
+.top-navbar .left-section p{
+    margin: 0px;
+    margin-right: 30px;
+}
+.top-navbar .right-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-navbar .right-section i{
+    margin-right: 15px;
+    font-size: 18px;
+    transition: 1s;
+}
+.top-navbar .right-section i:hover{
+    transform: rotate(360deg);
+}
+@media screen and (max-width: 800px) {
+    .top-navbar .left-section p{
+        display: none;
+    }
+    .top-navbar .left-section i{
+        margin-right: 15px;
+    }
+    .top-navbar{
+        padding: 10px 30px;
+    }
+}
