@@ -22,7 +22,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px;
+    padding: 10px 120px;
     background: #ED1B24;
     color: white;
 }
@@ -51,7 +51,7 @@ a:hover{
 .top-navbar .right-section i:hover{
     transform: rotate(360deg);
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
     .top-navbar .left-section p{
         display: none;
     }
@@ -62,3 +62,23 @@ a:hover{
         padding: 10px 30px;
     }
 }
+
+
+
+/* navbar css start  */
+.navbar .navbar-brand img{
+    width: 85px;
+}
+.navbar .navbar-nav .nav-item a.active{
+    color: #ED1B24;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: #ED1B24;
+}
+.navbar .navbar-nav .nav-item{
+    margin-right: 10px;
+}
+.navbar .navbar-nav .nav-item a{
+    color: black;
+}
+/* navbar css end */
