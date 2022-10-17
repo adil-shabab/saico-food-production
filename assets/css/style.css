@@ -138,11 +138,11 @@ a:hover{
 .category-carousel .item .bg-img{
     position: absolute;
     width: 153px;
-    trasition
-    transition-delay: 1s;
-    bottom: 3px;
-    display: none;
-    right: 125px;
+    transition-delay: 3s;
+    transition: 1.5s;
+    bottom: 30px;
+    z-index: -1;
+    right: 55px;
 }
 .category-carousel .item .packet-img{
     position: absolute;
@@ -156,7 +156,9 @@ a:hover{
     transform: rotate(-140deg);
 }
 .category-carousel .item:hover .bg-img{
-    display: block;
+    z-index: 0;
+    bottom: 3px;
+    right: 125px;
 }
 
 /* second slider css end */
