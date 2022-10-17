@@ -84,7 +84,7 @@ a:hover{
 /* navbar css end */
 
 
-/* slider css start  */
+/* home slider css start  */
 #carouselExampleIndicators .carousel-inner{
     height: 83vh;
 }
@@ -100,4 +100,64 @@ a:hover{
         display: none;
     }
 }
-/* slider css end  */
+/* home slider css end  */
+
+
+/* second slider css start  */
+.category-carousel .item{
+    width: 100%;
+    background: rgb(194, 150, 150);
+    padding: 40px 70px;
+    position: relative;
+}
+.category-carousel .item.first-card{
+    background: #F5F1EF;
+}
+.no-gutter{
+    --bs-gutter-x:0px
+}
+.category-carousel .item h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: black;
+}
+.category-carousel .item p{
+    width: 90%;
+}
+.category-carousel .item .button{
+    border: none;
+    outline: none;
+    background: #D74039;
+    color: white;
+    z-index: 1;
+    padding: 8px 18px;
+    margin-bottom: 25px;
+    z-index: 1;
+    margin-top: 25px;
+}
+.category-carousel .item .bg-img{
+    position: absolute;
+    width: 153px;
+    trasition
+    transition-delay: 1s;
+    bottom: 3px;
+    display: none;
+    right: 125px;
+}
+.category-carousel .item .packet-img{
+    position: absolute;
+    width: 150px;
+    transition: 0.8s;
+    z-index: 1;
+    bottom: 20px;
+    right: 12px;
+}
+.category-carousel .item:hover .packet-img{
+    transform: rotate(-140deg);
+}
+.category-carousel .item:hover .bg-img{
+    display: block;
+}
+
+/* second slider css end */
+
