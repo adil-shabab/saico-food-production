@@ -3,6 +3,7 @@ $('.category-carousel').owlCarousel({
     margin:0,
     nav:true,
     dots:false,
+    navText: ["<i class='arrow fa-solid fa-chevron-left'></i>","<i class='arrow fa-solid fa-chevron-right'></i>"],
     responsive:{
         0:{
             items:1

@@ -25,6 +25,7 @@ a:hover{
     padding: 10px 120px;
     background: #ED1B24;
     color: white;
+    height: 5vh;
 }
 .top-navbar .left-section{
     display: flex;
@@ -66,6 +67,9 @@ a:hover{
 
 
 /* navbar css start  */
+.navbar{
+    height: 10vh;
+}
 .navbar .navbar-brand img{
     width: 85px;
 }
@@ -86,7 +90,7 @@ a:hover{
 
 /* home slider css start  */
 #carouselExampleIndicators .carousel-inner{
-    height: 83vh;
+    height: 85vh;
 }
 .carousel-indicators [data-bs-target].active{
     background-color: #ED1B24 !important;
@@ -113,13 +117,19 @@ a:hover{
 .category-carousel .item.first-card{
     background: #F5F1EF;
 }
+.category-carousel .item.second-card{
+    background: #D74039;
+    color: white;
+}
+.category-carousel .item.third-card{
+    background: #F5F1EF;
+}
 .no-gutter{
     --bs-gutter-x:0px
 }
 .category-carousel .item h4{
     font-weight: bold;
     margin-bottom: 15px;
-    color: black;
 }
 .category-carousel .item p{
     width: 90%;
@@ -129,6 +139,17 @@ a:hover{
     outline: none;
     background: #D74039;
     color: white;
+    z-index: 1;
+    padding: 8px 18px;
+    margin-bottom: 25px;
+    z-index: 1;
+    margin-top: 25px;
+}
+.category-carousel .item .button-white{
+    border: none;
+    outline: none;
+    background: white;
+    color: black;
     z-index: 1;
     padding: 8px 18px;
     margin-bottom: 25px;
@@ -160,6 +181,16 @@ a:hover{
     bottom: 3px;
     right: 125px;
 }
-
+.category-carousel .arrow{
+    color: white;
+    background: #D74039;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 8px 11px;
+}
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: none;
+    text-decoration: none;
+}
 /* second slider css end */
 
