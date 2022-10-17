@@ -139,7 +139,7 @@ a:hover{
     position: absolute;
     width: 153px;
     transition-delay: 2s;
-    transition: 1.5s;
+    transition: 1s;
     bottom: 30px;
     z-index: -1;
     right: 55px;
