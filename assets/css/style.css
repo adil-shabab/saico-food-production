@@ -132,7 +132,8 @@ a:hover{
     margin-bottom: 15px;
 }
 .category-carousel .item p{
-    width: 90%;
+    font-size: 13px;
+    width: 65%;
 }
 .category-carousel .item .button{
     border: none;
@@ -167,7 +168,7 @@ a:hover{
 }
 .category-carousel .item .packet-img{
     position: absolute;
-    width: 150px;
+    width: 200px;
     transition: 0.8s;
     z-index: 1;
     bottom: 20px;
@@ -194,3 +195,25 @@ a:hover{
 }
 /* second slider css end */
 
+
+
+
+
+/* about-us section css starts  */
+.about-us{
+    margin-bottom: 80px;
+    margin-top: 120px;
+}
+.about-us .left-section{
+    position: relative;
+}
+.about-us .left-section .about-img{
+    width: 70%;
+    z-index: 2;
+}
+.about-us .left-section .back-dot{
+    position: absolute;
+    left: 70px;
+    bottom: -57px;
+}
+/* about-us section css end */
