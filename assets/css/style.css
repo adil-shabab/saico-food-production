@@ -265,6 +265,10 @@ a:hover{
     right: 55px;
     z-index: -1;
 }
+
+
+
+/* laptop size  */
 @media screen and (max-width: 1199px) {
     .about-us .about-img-div::before{
         content: '';
@@ -291,6 +295,8 @@ a:hover{
         padding: 10px;
     }
 }
+
+/* tab size  */
 @media screen and (max-width: 992px) {
     .container{
         max-width: 920px;
@@ -324,6 +330,8 @@ a:hover{
         padding-left: 30px;
     }
 }
+
+/* mobile size  */
 @media screen and (max-width: 502px) {
     .container{
         max-width: 500px;
@@ -361,6 +369,8 @@ a:hover{
         padding: 12px;
     }
 }
+
+/* small mobile  */
 @media screen and (max-width: 338px) {
 
     .about-us .about-img-div::after{
@@ -375,3 +385,16 @@ a:hover{
     }
 }
 /* about-us section css end */
+
+
+
+
+
+
+/* counter css section starts  */
+.counter-section{
+    background: #D74039;
+    height: 80px;
+    width: 100%;
+}
+/* counter css section end */
