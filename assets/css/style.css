@@ -69,6 +69,7 @@ a:hover{
 /* navbar css start  */
 .navbar{
     height: 10vh;
+    --bs-navbar-padding-y: 0rem !important;
 }
 .navbar .navbar-brand img{
     width: 85px;
@@ -111,7 +112,7 @@ a:hover{
 .category-carousel .item{
     width: 100%;
     background: rgb(194, 150, 150);
-    padding: 40px 70px;
+    padding: 30px 40px;
     position: relative;
 }
 .category-carousel .item.first-card{
@@ -215,5 +216,162 @@ a:hover{
     position: absolute;
     left: 70px;
     bottom: -57px;
+}
+.about-us .right-section .button{
+    border: none;
+    outline: none;
+    background: #D74039;
+    color: white;
+    z-index: 1;
+    padding: 8px 18px;
+    margin-bottom: 25px;
+    width:156px;
+    z-index: 1;
+    margin-top: 25px;
+}
+.about-us .right-section{
+    padding: 30px;
+}
+.about-us .right-section h3{
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.about-us .right-section p{
+    font-size: 15px;
+    text-align: justify;
+}
+.about-us .about-img-div{
+    position: relative;
+}
+.about-us .about-img-div::before{
+    content: '';
+    background: url('../img/background-dot.png');
+    position: absolute;
+    bottom: -50px;
+    width: 160px;
+    left: 24px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    height: 247px;
+}
+.about-us .about-img-div::after{
+    content: '';
+    width: 300px;
+    height: 300px;
+    border: 5px solid #D74039;
+    position: absolute;
+    top: -30px;
+    right: 55px;
+    z-index: -1;
+}
+@media screen and (max-width: 1199px) {
+    .about-us .about-img-div::before{
+        content: '';
+        background: url('../img/background-dot.png');
+        position: absolute;
+        bottom: -50px;
+        width: 160px;
+        left: 24px;
+        z-index: -1;
+        background-repeat: no-repeat;
+        height: 247px;
+    }
+    .about-us .about-img-div::after{
+        content: '';
+        width: 300px;
+        height: 300px;
+        border: 5px solid #D74039;
+        position: absolute;
+        top: -40x;
+        right: 40px;
+        z-index: -1;
+    }
+    .about-us .right-section{
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container{
+        max-width: 920px;
+    }
+    .about-us .about-img-div::before{
+        content: '';
+        background: url('../img/background-dot.png');
+        position: absolute;
+        bottom: -35px;
+        width: 160px;
+        left: -5px;
+        z-index: -1;
+        background-repeat: no-repeat;
+        height: 247px;
+    }
+    .about-us .about-img-div::after{
+        content: '';
+        width: 300px;
+        height: 300px;
+        border: 5px solid #D74039;
+        position: absolute;
+        top: -30px;
+        right: 5px;
+        z-index: -1;
+    }
+    .about-us .left-section .about-img{
+        width: 85%;
+        z-index: 2;
+    }
+    .about-us .right-section{
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 502px) {
+    .container{
+        max-width: 500px;
+    }
+    .about-us .about-img-div::before{
+        content: '';
+        background: url('../img/background-dot.png');
+        position: absolute;
+        bottom: -35px;
+        width: 160px;
+        left: 2px;
+        z-index: -1;
+        background-repeat: no-repeat;
+        height: 247px;
+    }
+    .about-us .right-section{
+        margin-top: 60px;
+    }
+    .about-us .about-img-div::after{
+        content: '';
+        width: 250px;
+        height: 250px;
+        border: 5px solid #D74039;
+        position: absolute;
+        top: -30px;
+        right: 5px;
+        z-index: -1;
+    }
+    .about-us .left-section .about-img{
+        width: 85%;
+        z-index: 2;
+    }
+    .about-us .right-section{
+        padding-left: 0px;
+        padding: 12px;
+    }
+}
+@media screen and (max-width: 338px) {
+
+    .about-us .about-img-div::after{
+        content: '';
+        width: 210px;
+        height: 210px;
+        border: 5px solid #D74039;
+        position: absolute;
+        top: -30px;
+        right: 5px;
+        z-index: -1;
+    }
 }
 /* about-us section css end */
