@@ -640,3 +640,24 @@ a:hover{
 }
   
 /* testimonial css end */
+
+
+
+
+
+
+
+/* footer section css starts  */
+.footer-section{
+    border-top: 1px solid rgb(220, 220, 220);
+    margin-top: 30px;
+    padding: 35px 5px;
+}
+.footer-section .guide-links i{
+    color: white;
+    background: #D74039;
+    padding: 4px 6px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+/* footer section css end  */
