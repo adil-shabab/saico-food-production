@@ -527,12 +527,22 @@ a:hover{
 
 .testimonialSection {
     position: relative;
+    background: url('../img/testimonials/testimonial-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     padding-top: 80px;
+    padding-bottom: 50px;
+}
+.testimonialSection .head-txt{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: bold;
 }
 .testimonialSection .testimonialcard {
     background-color: #ffffff;
     padding: 25px 30px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.09);
     border-radius: 12px;
 }
 .testimonialSection .testimonialcard .top {
@@ -551,10 +561,13 @@ a:hover{
 }
 .testimonialSection .testimonialcard .top .profile p {
     font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 29px;
     color: #000000;
+    margin: 0px;
+    margin-left: 17px;
+    margin-top: 8px;
 }
 .testimonialSection .testimonialcard .top .profile span {
     font-style: normal;
@@ -566,7 +579,7 @@ a:hover{
 .testimonialSection .testimonialcard .testimonialHead {
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 26px;
     color: #000000;
     margin-top: 20px;
@@ -581,7 +594,7 @@ a:hover{
 .testimonialSection .testimonialcard .review p {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 26px;
     color: #676767;
     text-align: center;
@@ -595,7 +608,7 @@ a:hover{
 }
 .testimonialSection .testimonialcard .review::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #24B14B;
+    background-color: #D74039;
     opacity: 1;
 }
 .testimonialSection .testimonialCarousel {
@@ -609,7 +622,7 @@ a:hover{
 }
 .testimonialSection .testimonialCarousel .slick-next {
     right: 0;
-    background-image: url("../img/testimonial/Arrow next.png");
+    background-image: url("../img/testimonials/Arrow-next.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -618,7 +631,7 @@ a:hover{
 }
 .testimonialSection .testimonialCarousel .slick-prev {
     left: 0;
-    background-image: url("../img/testimonial/Arrow Prev.png");
+    background-image: url("../img/testimonials/Arrow-Prev.png");
     background-size: contain;
     background-repeat: no-repeat;
 }

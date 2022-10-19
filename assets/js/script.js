@@ -26,7 +26,7 @@ $('.testimonialCarousel').slick({
     slidesToShow: 2,
     margin: 10,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     dots: false,
     arrows: true,
     responsive: [{
