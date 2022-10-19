@@ -108,6 +108,9 @@ a:hover{
 /* home slider css end  */
 
 
+
+
+
 /* second slider css start  */
 .category-carousel .item{
     width: 100%;
@@ -203,14 +206,21 @@ a:hover{
 /* about-us section css starts  */
 .about-us{
     margin-bottom: 80px;
-    margin-top: 120px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/about-bg.png');
+    background-repeat: no-repeat;
+    z-index: -10;
 }
 .about-us .left-section{
     position: relative;
 }
 .about-us .left-section .about-img{
     width: 70%;
-    z-index: 2;
+    z-index: 1;
+    position: relative;
 }
 .about-us .left-section .back-dot{
     position: absolute;
@@ -240,6 +250,7 @@ a:hover{
 .about-us .right-section p{
     font-size: 15px;
     text-align: justify;
+    margin-top: 25px;
 }
 .about-us .about-img-div{
     position: relative;
@@ -251,7 +262,7 @@ a:hover{
     bottom: -50px;
     width: 160px;
     left: 24px;
-    z-index: -1;
+    z-index: 0;
     background-repeat: no-repeat;
     height: 247px;
 }
@@ -263,7 +274,7 @@ a:hover{
     position: absolute;
     top: -30px;
     right: 55px;
-    z-index: -1;
+    z-index: 0;
 }
 
 
@@ -277,7 +288,7 @@ a:hover{
         bottom: -50px;
         width: 160px;
         left: 24px;
-        z-index: -1;
+        z-index: 0;
         background-repeat: no-repeat;
         height: 247px;
     }
@@ -287,9 +298,9 @@ a:hover{
         height: 300px;
         border: 5px solid #D74039;
         position: absolute;
-        top: -40x;
+        top: -40px;
         right: 40px;
-        z-index: -1;
+        z-index: 0;
     }
     .about-us .right-section{
         padding: 10px;
@@ -308,7 +319,7 @@ a:hover{
         bottom: -35px;
         width: 160px;
         left: -5px;
-        z-index: -1;
+        z-index: 0;
         background-repeat: no-repeat;
         height: 247px;
     }
@@ -320,7 +331,7 @@ a:hover{
         position: absolute;
         top: -30px;
         right: 5px;
-        z-index: -1;
+        z-index: 0;
     }
     .about-us .left-section .about-img{
         width: 85%;
@@ -343,7 +354,7 @@ a:hover{
         bottom: -35px;
         width: 160px;
         left: 2px;
-        z-index: -1;
+        z-index: 0;
         background-repeat: no-repeat;
         height: 247px;
     }
@@ -358,7 +369,7 @@ a:hover{
         position: absolute;
         top: -30px;
         right: 5px;
-        z-index: -1;
+        z-index: 0;
     }
     .about-us .left-section .about-img{
         width: 85%;
@@ -381,7 +392,7 @@ a:hover{
         position: absolute;
         top: -30px;
         right: 5px;
-        z-index: -1;
+        z-index: 0;
     }
 }
 /* about-us section css end */
@@ -394,7 +405,34 @@ a:hover{
 /* counter css section starts  */
 .counter-section{
     background: #D74039;
-    height: 80px;
     width: 100%;
 }
+.counter-section .counter-box{
+    color: white;
+    padding: 40px 10px;
+}
+.counter-section .counter-box h3{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.counter-section .counter-box p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
 /* counter css section end */
+
+
+
+
+
+/* best selling products css starts  */
+.best-products{
+    margin-top: 100px;
+}
+
+.best-products .head-txt{
+    width: 70%;
+    margin: auto;
+}
+/* best selling products css end  */
