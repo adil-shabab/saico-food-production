@@ -638,6 +638,9 @@ a:hover{
 .testimonialSection .testimonialCarousel .slick-prev::before {
     opacity: -1;
 }
+.testimonialSection .starRating i{
+    color: goldenrod;
+}
   
 /* testimonial css end */
 
