@@ -697,13 +697,52 @@ a:hover{
 
 
 /* signup news letter css start  */
-/* .signup-section{
-    background: url('../img/banner-bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 40vh;
-} */
+.signup-section{
+    background: #D74039;
+    max-width: 100%;
+    overflow: hidden;
+}
+.signup-section .row{
+    padding: 50px 0px 0px;
+}
+.signup-section .text-section{
+    color: white;
+}
+.signup-section .text-section input{
+    border: none;
+    outline: none;
+}
+.signup-section .text-section .input-section{
+    max-width: 75%;
+    margin-top: 30px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background: white;
+}
+.signup-section .text-section h2{
+    font-size: 35px;
+    font-weight: bold;
+}
+.signup-section .text-section .input-section i{
+    color: #D74039;
+    font-size: 21px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.signup-section .text-section .para{
+    width: 75%;
+}
+.signup-section .text-section .input-section .signup-btn{
+    border: none;
+    outline: none;
+    background: #D74039;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+}
 /* signup news letter css end */
 
 
