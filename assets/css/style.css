@@ -210,8 +210,8 @@ a:hover{
 
 /* about-us section css starts  */
 .about-us{
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     min-height: 80vh;
     display: flex;
     justify-content: center;
@@ -233,7 +233,7 @@ a:hover{
     left: 70px;
     bottom: -57px;
 }
-.about-us .right-section .button{
+/* .about-us .right-section .button{
     border: none;
     outline: none;
     background: #D74039;
@@ -242,12 +242,53 @@ a:hover{
     padding: 8px 18px;
     margin-bottom: 25px;
     width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
     z-index: 1;
     margin-top: 25px;
+} */
+.about-us .right-section .button:hover{
+    color: #D74039;
+    background: white;
 }
 .about-us .right-section{
     padding: 30px;
 }
+.about-us .right-section .button{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    margin-bottom: 25px;
+    width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    margin-top: 25px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.about-us .right-section .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.about-us .right-section .button:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.about-us .right-section .button:hover{
+    color: #D74039;
+}
+
 .about-us .right-section h3{
     font-size: 24px;
     margin-bottom: 25px;
@@ -282,6 +323,7 @@ a:hover{
     right: 55px;
     z-index: 0;
 }
+
 
 
 
@@ -643,6 +685,26 @@ a:hover{
 }
   
 /* testimonial css end */
+
+
+
+
+/* award section css start  */
+
+/* award section css end */
+
+
+
+
+/* signup news letter css start  */
+/* .signup-section{
+    background: url('../img/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+} */
+/* signup news letter css end */
 
 
 
