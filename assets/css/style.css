@@ -55,9 +55,7 @@ a:hover{
     font-size: 18px;
     transition: 1s;
 }
-.top-navbar .right-section i:hover{
-    transform: rotate(360deg);
-}
+
 @media screen and (max-width: 850px) {
     .top-navbar .left-section p{
         display: none;
@@ -93,6 +91,7 @@ a:hover{
     color: black;
 }
 /* navbar css end */
+
 
 
 /* home slider css start  */
@@ -211,6 +210,7 @@ a:hover{
 
 /* about-us section css starts  */
 .about-us{
+    margin-top: 40px;
     margin-bottom: 80px;
     min-height: 80vh;
     display: flex;
