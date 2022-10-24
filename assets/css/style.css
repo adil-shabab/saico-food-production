@@ -858,7 +858,7 @@ a:hover{
 
 /* box section css start  */
 .sm-section{
-    margin-top: 90px;
+    margin: 50px auto;
 }
 .sm-section .box{
     border: 2px solid #D74039;
@@ -893,6 +893,63 @@ a:hover{
 }
 /* box section css end */
 
+
+/* qualities section css start  */
+.qualities h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.qualities .row .box h5{
+    font-weight: bold;
+    font-size: 18px;
+}
+.qualities .row .box{
+    padding: 25px;
+    transition: 0.5s;
+}
+.qualities .row .box p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.qualities .row .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.qualities .row .box img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+.qualities .row .box:hover{
+    transform: translateY(-10px);
+}
+/* qualities section css end */
+
+/* about products css starts  */
+.about-products img{
+    border-radius: 50%;
+    width: 75%;
+}
+.about-products{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.about-products h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-products p{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* about products css end */
 /* about section css end */
 
 
