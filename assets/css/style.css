@@ -960,8 +960,93 @@ a:hover{
 
 
 
-/* contact section css start  */
+/* products section css start  */
+.product-home{
 
+}
+/* products section css end */
+
+
+
+
+
+
+/* contact section css start  */
+.contact-us-home{
+    margin-top: 40px;
+}
+.contact-us-home .right-section{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.contact-us-home .right-section input,
+.contact-us-home .right-section label,
+.contact-us-home .right-section textarea{
+    width: 100%;
+}
+.contact-us-home .right-section{
+    overflow: hidden;
+}
+.contact-us-home .right-section .button{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 35px;
+    overflow: hidden;
+    z-index: 0;
+}
+.contact-us-home .right-section .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.contact-us-home .right-section .button:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.contact-us-home .right-section .button:hover{
+    color: #D74039;
+}
+.contact-us-home .right-section h3{
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+/*= input focus effects css
+=========================== */
+:focus{outline: none;}
+
+.input-field{ position: relative;margin-top: 40px;} /* necessary to give position: relative to parent. */
+input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+
+
+.effect-16{border: 0; padding: 4px 0; border-bottom: 1px solid #ccc; background-color: transparent;}
+
+.effect-16 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.effect-16:focus ~ .focus-border,
+.has-content.effect-16 ~ .focus-border{width: 100%; margin-left: 15px; transition: 0.4s;}
+.effect-16 ~ label{position: absolute; left: 20px; width: 100%; top: 1px; color: #aaa; transition: 0.3s; z-index: -1; letter-spacing: 0.5px;}
+.effect-16:focus ~ label, .has-content.effect-16 ~ label{top: -16px; font-size: 12px; color: #3399FF; transition: 0.3s;}
+.effect-16:focus{
+    border: none;
+}
 /* contact section css end  */
 
 
