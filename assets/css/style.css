@@ -19,7 +19,9 @@ a:hover{
     justify-content: center;
     align-items: center;
 }
-
+.sm-box-shadow{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
 
 
 /* top navbar css start  */
@@ -137,7 +139,7 @@ a:hover{
     background: #F5F1EF;
 }
 .no-gutter{
-    --bs-gutter-x:0px
+    --bs-gutter-x:0px !important;
 }
 .category-carousel .item h4{
     font-weight: bold;
@@ -675,15 +677,6 @@ a:hover{
 
 
 
-/* award section css start  */
-.award-section{
-    /* background: #D74039; */
-    padding: 25px 0px;
-}
-.award-section img{
-    border-radius: 5px;
-}
-/* award section css end */
 
 
 
@@ -851,6 +844,55 @@ a:hover{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+/* award section css start  */
+.awards-section{
+    background: #D74039;
+    padding: 25px 0px;
+}
+.awards-section img{
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+/* award section css end */
+
+
+/* box section css start  */
+.sm-section{
+    margin-top: 90px;
+}
+.sm-section .box{
+    border: 2px solid #D74039;
+    padding: 2px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.sm-section .txt-section h3{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sm-section .txt-section p{
+    font-size: 15px;
+    text-align: justify;
+}
+.sm-section .box .img-section{
+
+}
+.sm-section .txt-section{
+    color: white;
+    background: #D74039;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.sm-section .txt-section,
+.sm-section .img-section{
+    padding: 30px 15px;
+}
+/* box section css end */
+
 /* about section css end */
 
 
