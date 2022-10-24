@@ -40,6 +40,7 @@ a:hover{
 }
 .top-navbar .left-section i{
     margin-right: 8px;
+    color: white;
 }
 .top-navbar .left-section p{
     margin: 0px;
@@ -52,6 +53,7 @@ a:hover{
 }
 .top-navbar .right-section i{
     margin-right: 15px;
+    color: white;
     font-size: 18px;
     transition: 1s;
 }
@@ -74,6 +76,7 @@ a:hover{
 .navbar{
     height: 10vh;
     --bs-navbar-padding-y: 0rem !important;
+    z-index: 1;
 }
 .navbar .navbar-brand img{
     width: 85px;
@@ -183,14 +186,7 @@ a:hover{
     bottom: 20px;
     right: 12px;
 }
-.category-carousel .item:hover .packet-img{
-    transform: rotate(-140deg);
-}
-.category-carousel .item:hover .bg-img{
-    z-index: 0;
-    bottom: 3px;
-    right: 125px;
-}
+
 .category-carousel .arrow{
     color: white;
     background: #D74039;
@@ -202,6 +198,7 @@ a:hover{
     background: none;
     text-decoration: none;
 }
+
 /* second slider css end */
 
 
@@ -233,20 +230,7 @@ a:hover{
     left: 70px;
     bottom: -57px;
 }
-/* .about-us .right-section .button{
-    border: none;
-    outline: none;
-    background: #D74039;
-    color: white;
-    z-index: 1;
-    padding: 8px 18px;
-    margin-bottom: 25px;
-    width:156px;
-    border: 1px solid #D74039;
-    transition: 0.5s;
-    z-index: 1;
-    margin-top: 25px;
-} */
+
 .about-us .right-section .button:hover{
     color: #D74039;
     background: white;
@@ -487,12 +471,14 @@ a:hover{
     top: 0px;
     right: 0px;
     z-index: -1;
+    opacity: 0.5;
 }
 .best-products .bottom-left-img{
     position: absolute;
     width: 280px;
     bottom: 0px;
     left: 0px;
+    opacity: 0.5;
     z-index: -1;
 }
 .best-products h2{
@@ -501,7 +487,7 @@ a:hover{
     margin-bottom: 20px;
 }
 .best-products .head-txt{
-    width: 60%;
+    width: 50%;
     margin: auto;
     font-size: 16px;
 }
@@ -569,10 +555,10 @@ a:hover{
 
 .testimonialSection {
     position: relative;
-    background: url('../img/testimonials/testimonial-bg.jpg');
+    /* background: url('../img/testimonials/testimonial-bg.jpg');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     padding-top: 80px;
     padding-bottom: 50px;
 }
@@ -690,7 +676,13 @@ a:hover{
 
 
 /* award section css start  */
-
+.award-section{
+    /* background: #D74039; */
+    padding: 25px 0px;
+}
+.award-section img{
+    border-radius: 5px;
+}
 /* award section css end */
 
 
@@ -700,6 +692,7 @@ a:hover{
 .signup-section{
     background: #D74039;
     max-width: 100%;
+    /* background: #93b237; */
     overflow: hidden;
 }
 .signup-section .row{
@@ -730,20 +723,147 @@ a:hover{
     color: #D74039;
     font-size: 21px;
     margin-left: 15px;
-    margin-top: 15px;
 }
 .signup-section .text-section .para{
     width: 75%;
 }
-.signup-section .text-section .input-section .signup-btn{
+.signup-section .text-section .signup-btn{
     border: none;
     outline: none;
     background: #D74039;
     padding: 10px;
     border-radius: 3px;
     color: white;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
 }
+.signup-section .text-section .signup-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.signup-section .text-section .signup-btn:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.signup-section .text-section .signup-btn:hover{
+    color: #D74039;
+}
+
+/* .signup-section .text-section .input-section .signup-btn{
+    border: none;
+    outline: none;
+    background: #D74039;
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+} */
 /* signup news letter css end */
+
+
+
+
+
+/* about section css start  */
+.about-section{
+    /* padding-top: 150px; */
+    position: relative;
+    background: url('../img/about-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section .right-section h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-section .right-section p{
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.about-section .right-section .button:hover{
+    color: #D74039;
+    background: white;
+}
+.about-section .right-section{
+    padding: 30px;
+}
+.about-section .right-section .button{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.about-section .right-section .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.about-section .right-section .button:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.about-section .right-section .button:hover{
+    color: #D74039;
+}
+.about-section .right-section .icons img{
+    width: 40px;
+    filter: grayscale(0.8);
+    margin-bottom: 8px;
+}
+.about-section .right-section .icons p{
+    font-size: 13px;
+}
+.about-section .right-section .icons{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+/* about section css end */
+
+
+
+
+
+
+
+
+
+/* contact section css start  */
+
+/* contact section css end  */
 
 
 
@@ -753,8 +873,8 @@ a:hover{
 
 /* footer section css starts  */
 .footer-container{
-   background-color: #fafafb;
-   padding-top: 25px;
+   /* background-color: #fafafb; */
+   /* padding-top: 25px; */
 }
 .footer-section{
     border-top: 1px solid rgb(220, 220, 220);
@@ -803,3 +923,12 @@ a:hover{
     font-weight: bold;
 }
 /* footer section css end  */
+
+
+
+
+
+
+
+
+
