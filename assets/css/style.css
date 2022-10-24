@@ -1047,6 +1047,25 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 .effect-16:focus{
     border: none;
 }
+
+.contact-box{
+    margin-bottom: 60px;
+}
+.contact-box .icons{
+    width: 60px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.contact-box .box{
+    background: rgb(233, 245, 227);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
+    /* border: 2px solid #D74039; */
+}
 /* contact section css end  */
 
 
