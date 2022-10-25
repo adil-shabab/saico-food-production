@@ -220,7 +220,7 @@ a:hover{
 
 
 /* second slider css start  */
-/* .category-carousel .item{
+.category-carousel .item{
     width: 100%;
     background: rgb(194, 150, 150);
     padding: 30px 40px;
@@ -232,9 +232,9 @@ a:hover{
 .category-carousel .item.second-card{
     background: #D74039;
     color: white;
-} */
+} 
 
-/* .category-carousel .item h4{
+ .category-carousel .item h4{
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -292,7 +292,7 @@ a:hover{
 .owl-theme .owl-nav [class*='owl-']:hover {
     background: none;
     text-decoration: none;
-} */
+}
 
 /* second slider css end */
 
