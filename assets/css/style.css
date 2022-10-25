@@ -1141,8 +1141,41 @@ a:hover{
     height: 100%;
 }
 .product-banner h2{
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
+}
+.product-banner .button{
+    outline: none;
+    background: white;
+    color: #D74039;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid white;
+    transition: 0.5s;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.product-banner .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #D74039;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.product-banner .button:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.product-banner .button:hover{
+    color: white;
 }
 /* .banner section css end  */
 /* products section css end */
