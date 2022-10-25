@@ -1060,6 +1060,15 @@ a:hover{
     /* background-position: center; */
     position: relative;
 }
+.product-home-2 .nature-2{
+    width: 80px;
+    opacity: 0.4;
+    bottom: 35%;
+    left: 15px;
+    filter: grayscale(1);
+    position: absolute;
+    animation: natureanimate 14s infinite;
+}
 .product-home-2 .nature{
     width: 80px;
     opacity: 0.4;
