@@ -962,7 +962,70 @@ a:hover{
 
 /* products section css start  */
 .product-home{
+    margin-top: 40px;
+}
+.product-home h1{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.product-home .row .column{
+    padding: 50px 10px;
+    background: #d8eac4;
+    min-height: 280px;
+    border-radius: 10px;
+}
+.product-home .box{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding-top: 30px;
+    position: relative;
+}
+.product-home h4{
+    font-size: 17px;
+    position: relative;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.product-home .box .shape{
+    position: absolute;
+    width: 290px;
+    left: -10px;
+    z-index: -1;
+    top: -57px;
+}
 
+.product-home .box h4::before{
+    content: '';
+    border-bottom: 3px solid #D74039;
+    width: 22%;
+    position: absolute;
+    display: block;
+    transition: 0.6s;
+    bottom: -10px;
+    left: 1px;
+}
+.product-home  .box h4::after{
+    content: '';
+    border-bottom: 3px solid #7AAB3A;
+    width: 22%;
+    position: absolute;
+    transition: 0.6s;
+    display: block;
+    bottom: -10px;
+    left: 22%;
+}
+.product-home  .box:hover h4::after{
+    width: 50%;
+    left: 50%;
+}
+.product-home  .box:hover h4::before{
+    width: 50%;
 }
 /* products section css end */
 
