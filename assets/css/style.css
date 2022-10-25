@@ -135,9 +135,6 @@ a:hover{
     background: #D74039;
     color: white;
 }
-.category-carousel .item.third-card{
-    background: #F5F1EF;
-}
 .no-gutter{
     --bs-gutter-x:0px !important;
 }
@@ -1027,6 +1024,31 @@ a:hover{
 .product-home  .box:hover h4::before{
     width: 50%;
 }
+
+/* .banner section css start  */
+.product-banner{
+    height: 30vh;
+    margin-top: 100px;
+    background: #D74039;
+    color: white;
+}
+.product-banner .row > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product-banner .container{
+    height: 100%;
+}
+.product-banner .container .row{
+    height: 100%;
+}
+.product-banner h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* .banner section css end  */
 /* products section css end */
 
 
