@@ -22,7 +22,9 @@ a:hover{
 .sm-box-shadow{
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
 }
-
+.no-gutter{
+    --bs-gutter-x:0px !important;
+}
 
 /* top navbar css start  */
 .top-navbar{
@@ -121,8 +123,104 @@ a:hover{
 
 
 
+/* category css start  */
+.category .row .first-card{
+    background: #F5F1EF;
+    color: black;
+    position: relative;
+    height: 33.33vh;
+    padding: 25px;
+}
+.category .row .second-card{
+    background: #D74039;
+    color: white;
+    position: relative;
+    height: 33.33vh;
+    padding: 25px;
+}
+.category .row img{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 185px;
+}
+.category .row h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.category .row .first-card .button{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+    z-index: 0;
+}
+.category .row .first-card .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.category .row .first-card .button:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.category .row .first-card .button:hover{
+    color: #D74039;
+}
+.category .row .second-card .button{
+    outline: none;
+    background: white;
+    color: #D74039;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid white;
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    overflow: hidden;
+    z-index: 0;
+}
+.category .row .second-card .button::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #D74039;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.category .row .second-card .button:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.category .row .second-card .button:hover{
+    color: white;
+}
+/* category css end */
+
+
+
 /* second slider css start  */
-.category-carousel .item{
+/* .category-carousel .item{
     width: 100%;
     background: rgb(194, 150, 150);
     padding: 30px 40px;
@@ -134,11 +232,9 @@ a:hover{
 .category-carousel .item.second-card{
     background: #D74039;
     color: white;
-}
-.no-gutter{
-    --bs-gutter-x:0px !important;
-}
-.category-carousel .item h4{
+} */
+
+/* .category-carousel .item h4{
     font-weight: bold;
     margin-bottom: 15px;
 }
@@ -196,7 +292,7 @@ a:hover{
 .owl-theme .owl-nav [class*='owl-']:hover {
     background: none;
     text-decoration: none;
-}
+} */
 
 /* second slider css end */
 
