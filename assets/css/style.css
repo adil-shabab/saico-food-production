@@ -1352,8 +1352,8 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 /* blog section css start  */
-.blog-banner{
-    
+.blog-banner img{
+    border-radius: 8px;
 }
 /* blog section css end  */
 
