@@ -1054,13 +1054,54 @@ a:hover{
 
 
 /* products section css start  */
+.product-home-2{
+    /* background: url('../img/testimonials/testimonial-bg.jpg') no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    position: relative;
+}
+.product-home-2 .nature{
+    width: 80px;
+    opacity: 0.4;
+    top: 56px;
+    right: 75px;
+    filter: grayscale(1);
+    position: absolute;
+    animation: natureanimate 10s infinite;
+}
+@keyframes natureanimate {
+    0%,100%{
+        transform: translate(20px,-50px);
+    }
+    25%{
+        transform: rotate(65deg);
+    }
+    40%{
+        transform: translate(50px,32px);
+    }
+    50%{
+        transform: rotate(50deg) translate(45px,20px);
+    }
+    70%{
+        transform: rotate(80deg) translate(0px,0px);
+    }
+    100%{
+        transform: rotate(0deg) translate(25px,7px);
+    }
+}
+.product-home-2 .box .powder{
+    z-index: 1;
+}
+.product-home-1{
+    padding-top: 60px;
+}
 .product-home{
-    margin-top: 40px;
+    background: rgb(255, 254, 254);
 }
 .product-home h1{
     font-size: 30px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 80px;
+    margin-bottom: 15px;
     font-weight: bold;
 }
 .product-home .row .column{
@@ -1071,7 +1112,6 @@ a:hover{
 }
 .product-home .box{
     display: flex;
-    margin-top: 15px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1085,12 +1125,13 @@ a:hover{
     font-weight: bold;
     margin-top: 15px;
 }
-.product-home .box .shape{
+.product-home-2 .box .shape{
     position: absolute;
-    width: 290px;
-    left: -10px;
-    z-index: -1;
-    top: -57px;
+    width: 300px;
+    left: -15px;
+    transition: 0.5s;
+    top: -25px;
+    z-index: 0;
 }
 
 .product-home .box h4::before{
@@ -1119,6 +1160,9 @@ a:hover{
 }
 .product-home  .box:hover h4::before{
     width: 50%;
+}
+.product-home .box:hover .shape{
+    transform: translate(2px,-20px)
 }
 
 /* .banner section css start  */
