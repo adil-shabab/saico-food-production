@@ -1123,6 +1123,7 @@ a:hover{
 
 /* .banner section css start  */
 .product-banner{
+    position: relative;
     height: 30vh;
     margin-top: 100px;
     background: #D74039;
@@ -1177,6 +1178,14 @@ a:hover{
 .product-banner .button:hover{
     color: white;
 }
+.product-banner .star{
+    width: 168px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(0px, -50%);
+}
+
 /* .banner section css end  */
 /* products section css end */
 
@@ -1187,7 +1196,8 @@ a:hover{
 
 /* contact section css start  */
 .contact-us-home{
-    margin-top: 40px;
+    padding-top: 40px;
+    height: 85vh;
 }
 .contact-us-home .right-section{
     display: flex;
