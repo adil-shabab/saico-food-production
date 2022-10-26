@@ -33,9 +33,9 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 5px 120px;
+    height: 5vh;
     background: #ED1B24;
     color: white;
-    /* height: 5vh; */
 }
 .top-navbar .left-section{
     display: flex;
@@ -81,6 +81,7 @@ a:hover{
     padding: 5px;
     --bs-navbar-padding-y: 0rem !important;
     z-index: 1;
+    height: 10vh;
 }
 .navbar .navbar-brand img{
     width: 85px;
@@ -103,7 +104,7 @@ a:hover{
 
 /* home slider css start  */
 #carouselExampleIndicators .carousel-inner{
-    height: 84.7vh;
+    height: 85vh;
 }
 .carousel-indicators [data-bs-target].active{
     background-color: #ED1B24 !important;
