@@ -26,6 +26,40 @@ a:hover{
     --bs-gutter-x:0px !important;
 }
 
+.button-full{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    margin-top: 15px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.button-full::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.button-full:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.button-full:hover{
+    color: #D74039;
+}
+
 /* top navbar css start  */
 .top-navbar{
     width: 100%;
@@ -33,7 +67,7 @@ a:hover{
     justify-content: space-between;
     align-items: center;
     padding: 5px 120px;
-    height: 5vh;
+    /* height: 5vh; */
     background: #ED1B24;
     color: white;
 }
@@ -81,10 +115,10 @@ a:hover{
     padding: 5px;
     --bs-navbar-padding-y: 0rem !important;
     z-index: 1;
-    height: 8vh;
+    /* height: 10vh; */
 }
 .navbar .navbar-brand img{
-    width: 70%;
+    width: 85px;
 }
 .navbar .navbar-nav .nav-item a.active{
     color: #ED1B24;
@@ -104,7 +138,7 @@ a:hover{
 
 /* home slider css start  */
 #carouselExampleIndicators .carousel-inner{
-    height: 88vh;
+    height: 84.7vh;
 }
 .carousel-indicators [data-bs-target].active{
     background-color: #ED1B24 !important;
@@ -326,7 +360,9 @@ a:hover{
     left: 70px;
     bottom: -57px;
 }
-
+.about-us .right-section{
+    position: relative;
+}
 .about-us .right-section .button:hover{
     color: #D74039;
     background: white;
@@ -662,6 +698,13 @@ a:hover{
     font-size: 30px;
     margin-bottom: 25px;
     font-weight: bold;
+}
+.testimonialSection .head-img{
+    position: absolute;
+    width: 102px;
+    left: 59.5%;
+    top: -29px;
+    z-index: -1;
 }
 .testimonialSection .testimonialcard {
     background-color: #ffffff;
@@ -1353,8 +1396,90 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 /* blog section css start  */
-.blog-banner img{
+.blog-head .cursor{
+    width: 50px;
+    position: absolute;
+    left: 65%;
+    opacity: 0.8;
+    top: 20px;
+}
+.blog-head .arrow{
+    width: 80px;
+    position: absolute;
+    left: 35%;
+    bottom: -40px;
+}
+.blog-head .left-quote,
+.blog-head .right-quote{
+    position: absolute;
+    opacity: 0.6;
+    width: 50px;
+}
+.blog-head .left-quote{
+    left: 15%;
+    transform: rotate(180deg);
+    top: 0px;
+}
+.blog-head .right-quote{
+    right: 15%;
+    bottom: -50px;
+}
+.blog-head{
+    margin-top: 50px;
+    position: relative;
+}
+.blog-head p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+.blog-head h1{
+    font-size: 55px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog-body{
+    margin-top: 100px;
+}
+.blog-body .txt-box{
+    position: relative;
+}
+.blog-body .txt-box h3{
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.blog-body .txt-box p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+.blog-body .img-box img{
     border-radius: 8px;
+    max-width: 400px;
+}
+.blog-body .txt-box span{
+    padding: 10px;
+    width: 108px;
+    border-radius: 3px;
+    background: rgb(221, 252, 222);
+}
+.blog-body .txt-box::after{
+    content: '';
+    width: 60px;
+    height: 60px;
+    border-top: 4px solid #D74039;
+    border-right: 4px solid #D74039;
+    position: absolute;
+    top: -20px;
+    right: 0px;
+    display: block;
 }
 /* blog section css end  */
 
