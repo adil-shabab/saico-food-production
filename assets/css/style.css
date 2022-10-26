@@ -81,7 +81,7 @@ a:hover{
     padding: 5px;
     --bs-navbar-padding-y: 0rem !important;
     z-index: 1;
-    height: 10vh;
+    height: 8vh;
 }
 .navbar .navbar-brand img{
     width: 85%;
@@ -104,7 +104,7 @@ a:hover{
 
 /* home slider css start  */
 #carouselExampleIndicators .carousel-inner{
-    height: 85vh;
+    height: 88vh;
 }
 .carousel-indicators [data-bs-target].active{
     background-color: #ED1B24 !important;
