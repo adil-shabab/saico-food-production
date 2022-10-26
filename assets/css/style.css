@@ -84,7 +84,7 @@ a:hover{
     height: 10vh;
 }
 .navbar .navbar-brand img{
-    width: 85px;
+    width: 85%;
 }
 .navbar .navbar-nav .nav-item a.active{
     color: #ED1B24;
