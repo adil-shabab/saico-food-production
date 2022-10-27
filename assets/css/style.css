@@ -1425,7 +1425,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     bottom: -50px;
 }
 .blog-head{
-    margin-top: 50px;
+    margin-top: 70px;
     position: relative;
 }
 .blog-head p{
@@ -1444,7 +1444,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .blog-body{
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .blog-body .txt-box{
     position: relative;
