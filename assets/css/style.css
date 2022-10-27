@@ -1680,6 +1680,18 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .blog-body .right-section .txt-box{
         padding: 0px 25px;
     }
+    .single-blog-section .single-blog h1{
+        font-size: 35px;
+    }
+    .single-blog-section .single-blog .right-section{
+        margin-top: 5px;
+    }
+    .single-blog-section .single-blog .right-section h2{
+        margin-top: 25px;
+    }
+    .blog-body-section{
+        margin-top: 60px;
+    }
 }
 
 /* single blog page section css end */
