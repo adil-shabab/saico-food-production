@@ -1547,6 +1547,17 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-size: 18px;
     position: relative;
     margin-right: 45px;
+    margin-left: 45px;
+    position: relative;
+}
+.single-blog-section .single-blog .date::before{
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background: url('../img/date.png');
+    left: -40px;
+    top: 0px;
 }
 .single-blog-section .single-blog .img-box{
     padding: 15px 5px 15px 0px;
@@ -1581,12 +1592,16 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     margin-bottom: 35px;
 }
 .single-blog-section .single-blog .social-media{
-    margin-top: 25px;
+    margin-top: 35px;
 }
-.single-blog-section .single-blog .social-media p{
-    margin-right: 25px;
-    font-weight: 500;
-    font-size: 17px;
+.single-blog-section .single-blog .left-section{
+    position: relative;
+}
+.single-blog-section .single-blog .left-section .arrow{
+    position: absolute;
+    top: 100px;
+    width: 50px;
+    right: 65px;
 }
 .single-blog-section .single-blog .right-section{
     margin-top: 50px;
@@ -1603,6 +1618,22 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 }
 .single-blog-section .single-blog .right-section{
     padding: 15px;
+}
+.single-blog-section .single-blog .right-section .social-media a{
+    color: black;
+}
+.single-blog-section .single-blog .right-section .social-media i{
+    font-size: 24px;
+    margin-right: 20px;
+}
+.single-blog-section .single-blog .right-section .social-media .facebook{
+    color: #4267B2;
+}
+.single-blog-section .single-blog .right-section .social-media .twitter{
+    color: #00acee;
+}
+.single-blog-section .single-blog .right-section .social-media .instagram{
+    color: #cd486b;
 }
 .single-blog-section .single-blog .right-section h3{
     margin-top: 40px;
