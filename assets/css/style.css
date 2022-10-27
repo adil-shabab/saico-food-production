@@ -1483,7 +1483,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     display: block;
 }
 .blog-body-section{
-    margin-top: 80px;
+    margin-top: 110px;
 }
 .blog-body-section .box .img-section{
     padding: 15px;
@@ -1576,7 +1576,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-weight: bold;
     margin-top: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 60%;
+    width: 90%;
     font-size: 50px;
     margin-bottom: 35px;
 }
@@ -1587,6 +1587,28 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     margin-right: 25px;
     font-weight: 500;
     font-size: 17px;
+}
+.single-blog-section .single-blog .right-section{
+    margin-top: 50px;
+}
+.single-blog-section .single-blog .right-section h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.single-blog-section .single-blog .right-section p{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.single-blog-section .single-blog .right-section{
+    padding: 15px;
+}
+.single-blog-section .single-blog .right-section h3{
+    margin-top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 /* single blog page section css end */
 
