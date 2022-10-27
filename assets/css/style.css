@@ -1447,6 +1447,22 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 .blog-body{
     margin-top: 120px;
 }
+.blog-body-section h2{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    position: relative;
+}
+.blog-body-section h2::after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../img/cursor-2.png');
+    position: absolute;
+    top: 14px;
+}
 .blog-body .txt-box{
     position: relative;
 }
