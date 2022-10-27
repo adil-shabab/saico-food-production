@@ -166,7 +166,7 @@ li{
     outline: none;
 }
 .close-icon .close-icon-img{
-    width: 25px;
+    width: 22px;
 }
 .offcanvas-header{
     display: flex;
@@ -205,6 +205,11 @@ li{
 }
 .offcanvas-body .social-media-icons i.whatsapp{
     color:  #25D366;
+}
+@media screen and (max-width:450px) {
+    .offcanvas{
+        max-width: 80%;
+    }
 }
 /* navbar css end */
 
