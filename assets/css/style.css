@@ -132,6 +132,16 @@ a:hover{
 .navbar .navbar-nav .nav-item a{
     color: black;
 }
+.navbar .menu-icon{
+    width: 30px;
+}
+.navbar .navbar-toggler{
+    border: none;
+    outline: none;
+}
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
 /* navbar css end */
 
 
