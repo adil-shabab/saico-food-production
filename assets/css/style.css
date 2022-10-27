@@ -1537,6 +1537,51 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 
+/* single blog page section css starts  */
+.single-blog-section .single-blog img{
+    width: 100%;
+}
+.single-blog-section{
+    margin-top: 40px;
+}
+.single-blog-section .date{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    position: relative;
+    margin-right: 45px;
+}
+.single-blog-section .date::after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #D74039;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    transform: translate(0px,-50%);
+}
+.single-blog-section span:nth-child(2){
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.single-blog-section .single-blog h1{
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 60%;
+    font-size: 50px;
+}
+/* single blog page section css end */
+
+
+
+
+
+
+
 /* footer section css starts  */
 .footer-container{
    /* background-color: #fafafb; */
