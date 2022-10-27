@@ -981,6 +981,7 @@ a:hover{
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 /* award section css start  */
 .awards-section{
     background: #D74039;
@@ -1538,9 +1539,6 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 /* single blog page section css starts  */
-.single-blog-section .single-blog img{
-    width: 100%;
-}
 .single-blog-section{
     margin-top: 40px;
 }
@@ -1549,6 +1547,13 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-size: 18px;
     position: relative;
     margin-right: 45px;
+}
+.single-blog-section .single-blog .img-box{
+    padding: 15px 5px 15px 0px;
+}
+.single-blog-section .single-blog .img-box img{
+    width: 100%;
+    border-radius: 6px;
 }
 .single-blog-section .date::after{
     content: '';
@@ -1573,6 +1578,15 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 60%;
     font-size: 50px;
+    margin-bottom: 35px;
+}
+.single-blog-section .single-blog .social-media{
+    margin-top: 25px;
+}
+.single-blog-section .single-blog .social-media p{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 17px;
 }
 /* single blog page section css end */
 
