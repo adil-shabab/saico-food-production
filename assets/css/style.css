@@ -1283,7 +1283,15 @@ a:hover{
     left: 15px;
     transform: translate(0px, -50%);
 }
-
+@media screen and (max-width:500px) {
+    .product-banner h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .product-banner p{
+        margin-top: 5px;
+    }
+}
 /* .banner section css end  */
 /* products section css end */
 
@@ -1546,6 +1554,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     right: 25px;
     font-weight: bold;
 }
+
 /* blog section css end  */
 
 
@@ -1657,6 +1666,22 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-weight: bold;
     font-size: 20px;
 }
+@media screen and (max-width:500px) {
+    .blog-head p{
+        width: 100%;
+    }
+    .blog-body .right-section{
+        margin-top: 38px;
+        padding: 12px;
+    }
+    .blog-body-section .box{
+        padding: 12px;
+    }
+    .blog-body .right-section .txt-box{
+        padding: 0px 25px;
+    }
+}
+
 /* single blog page section css end */
 
 
