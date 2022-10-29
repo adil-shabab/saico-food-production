@@ -243,7 +243,7 @@ li{
 .category-carousel .item{
     width: 100%;
     background: rgb(194, 150, 150);
-    padding: 30px 40px;
+    padding: 38px 40px;
     position: relative;
 }
 .category-carousel .item.first-card{
@@ -1925,9 +1925,6 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .category-carousel .item .packet-img{
         width: 150px;
     }
-    .category-carousel .item h4{
-        font-size: 20px;
-    }
     .category-carousel .item .button-white{
         margin-bottom: 20px;
     }
@@ -2018,15 +2015,8 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
       .signup-section .text-section input{
         margin-left: 10px;
       }
-      .footer-container .logo-section{
-        align-items: flex-start;
-        margin-bottom: 80px;
-      }
-      .footer-container .contact{
-        margin-top: 50px;
-      }
-      .signup-section .text-section .para{
-        width: 96%;
+      .testimonialSection .testimonialCarousel .testimonialcard .review{
+        padding: 5px 10px;
       }
 }
 @media screen and (max-width:386px) {
@@ -2041,6 +2031,21 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     }
     .category-carousel .item h4{
         width: 60%;
+    }
+}
+@media screen and (max-width:992px) {
+    .footer-container .logo-section{
+        align-items: flex-start;
+        margin-bottom: 80px;
+      }
+      .footer-container .contact{
+        margin-top: 50px;
+      }
+      .signup-section .text-section .para{
+        width: 96%;
+      }
+      .category-carousel .item h4{
+        font-size: 20px;
     }
 }
 
