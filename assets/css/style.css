@@ -727,7 +727,31 @@ li{
 /* banner section css starts  */
 .banner-section{
     min-height: 30vh;
-    background: #D74039;
+    position: relative;
+    /* background: #D74039; */
+    padding: 50px;
+}
+.banner-section h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.banner-section p{
+    
+}
+.banner-section::before{
+    content: '';
+    background: url('../img/bg-5.png');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.9;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0px;
 }
 /* banner section css end */
 
