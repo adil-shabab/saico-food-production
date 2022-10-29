@@ -729,7 +729,7 @@ li{
     min-height: 30vh;
     position: relative;
     /* background: #D74039; */
-    padding: 50px;
+    padding: 50px 100px;
 }
 .banner-section h2{
     color: white;
@@ -785,6 +785,12 @@ li{
     background-repeat: no-repeat; */
     padding-top: 80px;
     padding-bottom: 50px;
+}
+.testimonialSection .dots{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    opacity: 0.7;
 }
 .testimonialSection .head-txt{
     font-size: 30px;
@@ -912,16 +918,21 @@ li{
 
 /* signup news letter css start  */
 .signup-section{
-    background: #D74039;
+    /* background: #D74039; */
     max-width: 100%;
     /* background: #93b237; */
     overflow: hidden;
+    background: url('../img/bg-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .signup-section .row{
     padding: 50px 0px 0px;
 }
 .signup-section .text-section{
     color: white;
+    margin-bottom: 40px;
 }
 .signup-section .text-section input{
     border: none;
@@ -1074,14 +1085,50 @@ li{
     margin-bottom: 40px;
 }
 
+
+
+
+
+
 /* award section css start  */
-.awards-section{
-    background: #D74039;
-    padding: 25px 0px;
+.award-section{
+    padding: 40px 0px 60px;
+    background: rgba(240, 174, 174, 0.21);
+    margin-bottom: 60px;
 }
-.awards-section img{
-    border-radius: 5px;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+.award-section h2{
+    font-weight: bold;
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.award-section h2::after{
+    content: '';
+    background: url('../img/medal.png');
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    opacity: 0.7;
+    top: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.award-section .owl-item > div {
+    margin: 6% 8%;
+    cursor: pointer;
+    transition: margin 0.4s ease;
+}
+.award-section .owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+    transform: scale(1.1);
+}
+.award-section .owl-item:not(.center) > div{
+    opacity: 0.7;
+}
+.award-section .owl-item:not(.center) > div:hover {
+    opacity: 1;
 }
 /* award section css end */
 
@@ -1807,17 +1854,22 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 /* footer section css starts  */
 .footer-container{
-   /* background-color: #fafafb; */
-   /* padding-top: 25px; */
+   color: white;
+   background: #D74039;
+}
+.footer-container .logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .footer-section{
-    border-top: 1px solid rgb(220, 220, 220);
     border-bottom: 1px solid rgb(220, 220, 220);
     padding: 80px 5px 50px;
 }
 .footer-section .guide-links i{
-    color: white;
-    background: #D74039;
+    color: #D74039;
+    background: white;
     padding: 6px 8px;
     cursor: pointer;
     font-size: 12px;
@@ -1840,7 +1892,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     margin-bottom: 25px;
 }
 .footer-section .contact i{
-    color: #D74039;
+    color: white;
     font-size: 18px;
     margin-right: 15px;
 }
@@ -1853,7 +1905,8 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 }
 .last-txt{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
     font-weight: bold;
 }
 /* footer section css end  */
