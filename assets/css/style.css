@@ -569,7 +569,8 @@ li{
 }
 .counter-section h3{
     font-weight: bold;
-    font-size: 46px;
+    font-size: 45px;
+    width: 78%;
 }
 .counter-section::before{
     content: '';
@@ -2027,6 +2028,20 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
       .signup-section .text-section .para{
         width: 96%;
       }
+}
+@media screen and (max-width:386px) {
+    .signup-section .text-section input{
+        width: 57%;
+    }
+    .signup-section .text-section i{
+        width: 8%;
+    }
+    .signup-section .text-section button{
+        width: 35%;
+    }
+    .category-carousel .item h4{
+        width: 60%;
+    }
 }
 
 
