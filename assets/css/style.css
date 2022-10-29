@@ -2011,6 +2011,22 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
       .signup-section .text-section h2{
         font-size: 32px;
       }
+      .signup-section .text-section .input-section{
+        max-width: 100%;
+      }
+      .signup-section .text-section input{
+        margin-left: 10px;
+      }
+      .footer-container .logo-section{
+        align-items: flex-start;
+        margin-bottom: 80px;
+      }
+      .footer-container .contact{
+        margin-top: 50px;
+      }
+      .signup-section .text-section .para{
+        width: 96%;
+      }
 }
 
 
