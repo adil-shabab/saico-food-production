@@ -736,8 +736,23 @@ li{
     font-size: 50px;
     font-weight: bolder;
 }
+.banner-section .button{
+    padding: 8px 22px;
+    background: white;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 0.3s linear;
+    border-radius: 35px;
+}
+.banner-section .button:hover{
+    background: #D74039;
+    color: white;
+}
 .banner-section p{
-    
+    color: white;
+    font-size: 18px;
 }
 .banner-section::before{
     content: '';
