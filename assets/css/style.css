@@ -1917,5 +1917,107 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 
+@media screen and (max-width:500px) {
+    .category-carousel .item .button{
+        margin-bottom: 20px;
+    }
+    .category-carousel .item .packet-img{
+        width: 150px;
+    }
+    .category-carousel .item h4{
+        font-size: 20px;
+    }
+    .category-carousel .item .button-white{
+        margin-bottom: 20px;
+    }
+    .category-carousel .item .button-white{
+        margin-bottom: 18px;
+    }
+    .about-us .dots{
+        right: 0px;
+        opacity: 0.5;
+    }
+    .counter-section .box .number{
+        font-size: 25px;
+    }
+    .counter-section .box .plus{
+        font-size: 25px;
+    }
+    .counter-section .box .description{
+        font-size: 18px;
+    }
+    .counter-section h3{
+        font-size: 25px;
+    }
+    .counter-section .left-section{
+        margin-bottom: 25px;
+    }
+    .best-products .head-txt{
+        width: 100%;
+        font-size: 14px;
+    }
+    .banner-section{
+        padding: 50px 20px;
+    }
+    .banner-section h2{
+        font-size: 27px;
+    }
+    .banner-section p{
+        font-size: 15px;
+    }
+    .testimonialSection .head-txt{
+        font-size: 22px;
+    }
+    .testimonialSection .head-img{
+        width: 87px;
+        left: 71.5%;
+    }
+    .testimonialSection .testimonialCarousel .slick-prev{
+        display: none;
+    }
+    .testimonialSection .testimonialCarousel .slick-next{
+        display: none;
+    }
+    .testimonialSection .testimonialCarousel {
+        padding: 10px 15px;
+      }
+      .testimonialSection .testimonialCarousel .testimonialcard {
+        padding: 25px 15px;
+      }
+      .testimonialSection .testimonialCarousel .testimonialcard .top .profile p {
+        font-size: 18px;
+        line-height: 26px;
+      }
+      .testimonialSection .testimonialCarousel .testimonialcard .top .profile span {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .testimonialSection .testimonialCarousel .testimonialcard .testimonialHead {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .testimonialSection .testimonialCarousel .testimonialcard .review {
+        margin-top: 10px;
+        padding: 15px 10px;
+      }
+      .testimonialSection .testimonialCarousel .testimonialcard .review p {
+        font-size: 14px;
+        line-height: 22px;
+      }
+      .testimonialSection .starRating i{
+        font-size: 11px;
+      }
+      .signup-section .text-section h2{
+        font-size: 32px;
+      }
+}
+
+
+
+
+
+
+
 
 
