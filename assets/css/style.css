@@ -1519,7 +1519,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 }
 
 .contact-box{
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 .contact-box .icons{
     width: 60px;
@@ -1628,7 +1628,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 }
 .blog-body .img-box img{
     border-radius: 8px;
-    max-width: 400px;
+    /* max-width: 400px; */
 }
 .blog-body .txt-box span{
     padding: 10px;
@@ -1840,9 +1840,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .single-blog-section .single-blog .right-section h2{
         margin-top: 25px;
     }
-    .blog-body-section{
-        margin-top: 60px;
-    }
+
 }
 
 /* single blog page section css end */
@@ -2021,9 +2019,6 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .contact-box{
         margin-bottom: 120px;
     }
-    .contact-us-home{
-        margin-top: 80px;
-    }
     .contact-us-home .img-section{
         display: flex;
         justify-content: center;
@@ -2033,12 +2028,10 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .contact-us-home .right-section h3{
         margin-bottom: 8px;
     }
-    .contact-box .row{
-        margin-top: 130px;
-    }
-    .contact-box .box{
-        margin-top: 10px;
-        margin-bottom: 10px;
+}
+@media screen and (max-width:753px) {
+    .blog-body .right-section{
+        margin-top: 36px;
     }
 }
 @media screen and (max-width:386px) {
@@ -2068,6 +2061,16 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
       }
       .category-carousel .item h4{
         font-size: 20px;
+    }
+    .contact-us-home{
+        height: auto;
+    }
+    .contact-box .box{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .blog-body-section{
+        margin-bottom: 100px;
     }
 }
 
