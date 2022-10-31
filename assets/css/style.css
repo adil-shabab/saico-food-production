@@ -1978,46 +1978,68 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     }
     .testimonialSection .testimonialCarousel {
         padding: 10px 15px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard {
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard {
         padding: 25px 15px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard .top .profile p {
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard .top .profile p {
         font-size: 18px;
         line-height: 26px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard .top .profile span {
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard .top .profile span {
         font-size: 14px;
         line-height: 20px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard .testimonialHead {
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard .testimonialHead {
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard .review {
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard .review {
         margin-top: 10px;
         padding: 15px 10px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard .review p {
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard .review p {
         font-size: 14px;
         line-height: 22px;
-      }
-      .testimonialSection .starRating i{
+    }
+    .testimonialSection .starRating i{
         font-size: 11px;
-      }
-      .signup-section .text-section h2{
+    }
+    .signup-section .text-section h2{
         font-size: 32px;
-      }
-      .signup-section .text-section .input-section{
+    }
+    .signup-section .text-section .input-section{
         max-width: 100%;
-      }
-      .signup-section .text-section input{
+    }
+    .signup-section .text-section input{
         margin-left: 10px;
-      }
-      .testimonialSection .testimonialCarousel .testimonialcard .review{
+    }
+    .testimonialSection .testimonialCarousel .testimonialcard .review{
         padding: 5px 10px;
-      }
+    }
+    .contact-box{
+        margin-bottom: 120px;
+    }
+    .contact-us-home{
+        margin-top: 80px;
+    }
+    .contact-us-home .img-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .contact-us-home .right-section h3{
+        margin-bottom: 8px;
+    }
+    .contact-box .row{
+        margin-top: 130px;
+    }
+    .contact-box .box{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 @media screen and (max-width:386px) {
     .signup-section .text-section input{

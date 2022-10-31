@@ -53,36 +53,72 @@
     <!-- top navbar end -->
 
 
-    <!-- navbar start -->
-    <nav class="sm-box-shadow navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="ms-auto navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="products.html">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-    <!-- navbar end -->
+  <!-- navbar start -->
+  <nav class="sm-box-shadow navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+        <img class="menu-icon img-fluid" src="assets/img/menu-bar.png" alt="">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="ms-auto navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link"href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+
   </header>
+
+
+
+
+
+
+
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <img class="offcanvas-logo" src="assets/img/logo.png" alt="">
+      <button type="button" class="close-icon text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+        <img class="close-icon-img" src="assets/img/close.png" alt="">
+      </button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="blog.html" >Blog</a></li>
+        <li><a href="contact.html" class="active">Contact Us</a></li>
+      </ul>
+      <div class="social-media-icons">
+        <i class="facebook fa-brands fa-facebook"></i>
+        <i class="instagram fa-brands fa-instagram"></i>
+        <i class="twitter fa-brands fa-twitter"></i>
+        <i class="whatsapp fa-brands fa-whatsapp"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+
 
 
 
@@ -91,23 +127,23 @@
     <div class="d-flex-full contact-us-home">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="img-section col-lg-6">
                     <img style="width: 85%;" class="img-fluid" src="assets/img/contact-us.jpg" alt="">
                 </div>
                 <div class="right-section col-lg-6">
                     <h3>Contact Us</h3>
                     <form class="row" action="">
-                        <div class="col-12 input-field input-effect">
+                        <div class="name-input col-12 input-field input-effect">
                             <input class="effect-16" type="text" placeholder="">
                             <label>Enter Your Name</label>
                             <span class="focus-border"></span>
                         </div>
-                        <div class="col-12 input-field input-effect">
+                        <div class="email-input col-12 input-field input-effect">
                             <input class="effect-16" type="email" placeholder="">
                             <label>Enter Your Mail</label>
                             <span class="focus-border"></span>
                         </div>
-                        <div class="col-12 input-field input-effect">
+                        <div class="message-input col-12 input-field input-effect">
                             <textarea class="effect-16" type="text" placeholder=""></textarea>
                             <label>Message</label>
                             <span class="focus-border"></span>
@@ -299,12 +335,7 @@
 
 
 
-    <!-- jquery cdn  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-    <!-- custom js  -->
-    <script src="assets/js/contact.js"></script>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -314,6 +345,13 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+
+  <!-- jquery cdn  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- custom js  -->
+  <script src="assets/js/contact.js"></script>
+
 </body>
 
 </html>
