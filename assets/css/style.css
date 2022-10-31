@@ -1248,6 +1248,7 @@ li{
     /* background-size: cover; */
     /* background-position: center; */
     position: relative;
+    margin-bottom: 80px;
 }
 .product-home-2 .nature-2{
     width: 80px;
