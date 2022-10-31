@@ -1138,6 +1138,9 @@ li{
 .sm-section{
     margin: 50px auto;
 }
+.sm-section img{
+    width: 50%;
+}
 .sm-section .box{
     border: 2px solid #D74039;
     padding: 2px;
@@ -1183,6 +1186,7 @@ li{
 .qualities .row .box h5{
     font-weight: bold;
     font-size: 18px;
+    text-align: center;
 }
 .qualities .row .box{
     padding: 25px;
@@ -2071,6 +2075,17 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     }
     .blog-body-section{
         margin-bottom: 100px;
+    }
+    .about-section{
+        height: auto;
+        margin-top: 25px;
+    }
+    .about-section .right-section .icons{
+        max-width: 100%;
+        overflow-x: scroll;
+    }
+    .side-img{
+        display: none;
     }
 }
 
