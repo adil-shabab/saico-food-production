@@ -1498,6 +1498,9 @@ li{
     .product-home-2 .dots{
         opacity: 0.3;
     }
+    .product-home h1{
+        font-size: 24px;
+    }
 }
 /* .banner section css end  */
 /* products section css end */
