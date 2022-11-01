@@ -138,7 +138,7 @@ li{
     justify-content: space-between;
     align-items: center;
     padding: 5px 120px;
-    /* height: 5vh; */
+    height: 5vh;
     background: #ED1B24;
     color: white;
 }
@@ -186,7 +186,7 @@ li{
     padding: 5px;
     --bs-navbar-padding-y: 0rem !important;
     z-index: 1;
-    /* height: 10vh; */
+    height: 10vh;
 }
 .navbar .navbar-brand img{
     width: 85px;
@@ -274,7 +274,7 @@ li{
 
 /* home slider css start  */
 #carouselExampleIndicators .carousel-inner{
-    height: 84.7vh;
+    height: 85vh;
 }
 .carousel-indicators [data-bs-target].active{
     background-color: #ED1B24 !important;
@@ -1013,26 +1013,25 @@ li{
 .signup-section .input-box{
     max-width:450px;
     padding: 10px;
+    border-radius: 8px;
 }
 .signup-section .input-box i{
     color: #D74039;
+    font-size: 21px;
 }
-.signup-section .text-section .input-section{
-    max-width: 45%;
-    margin-top: 30px;
-    padding: 6px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 6px;
-    background: white;
+.signup-section .input-box button{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
 }
-.signup-section .text-section h2{
-    font-size: 35px;
-    font-weight: bold;
-}
-
-.signup-section .text-section .signup-btn::before{
+.signup-section .input-box button::before{
     content: "";
     position: absolute;
     top: 0;
@@ -1043,23 +1042,15 @@ li{
     transition: 0.3s linear;
     z-index: -1;
 }
-.signup-section .text-section .signup-btn:hover::before{
+.signup-section .input-box button:hover::before{
     width: 100%;
     left: 0;
     color: #D74039
 }
-.signup-section .text-section .signup-btn:hover{
+.signup-section .input-box button:hover{
     color: #D74039;
 }
 
-/* .signup-section .text-section .input-section .signup-btn{
-    border: none;
-    outline: none;
-    background: #D74039;
-    padding: 10px;
-    border-radius: 3px;
-    color: white;
-} */
 /* signup news letter css end */
 
 
@@ -1150,8 +1141,8 @@ li{
 
 /* award section css start  */
 .award-section{
-    padding: 40px 0px 60px;
-    background: rgba(240, 174, 174, 0.21);
+    padding: 36px 0px 32px;
+    background: #D74039;
     margin-bottom: 60px;
 }
 .award-section h2{
@@ -1182,11 +1173,11 @@ li{
     margin: 0;
     transform: scale(1.1);
 }
-.award-section .owl-item:not(.center) > div{
+.award-section .owl-item:not(.center) > div:hover {
     opacity: 0.7;
 }
-.award-section .owl-item:not(.center) > div:hover {
-    opacity: 1;
+.award-section img{
+    border-radius: 8px;
 }
 /* award section css end */
 
