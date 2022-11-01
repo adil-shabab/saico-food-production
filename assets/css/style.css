@@ -74,6 +74,63 @@ li{
     color: #D74039;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+.single-page{
+    background: url('../img/background-shape.png') !important;
+}
+
+
+
+
+/* loader css  */
+.loader {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.8;
+    background-color:#221e1e;
+    z-index: 99;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader .pre-loader {
+    width: 120px;
+    height: 120px;
+    border-top: 4px solid rgb(237, 44, 73);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+      
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
 /* top navbar css start  */
 .top-navbar{
     width: 100%;
@@ -1262,7 +1319,9 @@ li{
     /* background-size: cover; */
     /* background-position: center; */
     position: relative;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
+    background: url('../img/about-bg.png');
+    background-repeat: no-repeat;
 }
 .product-home-2 .nature-2{
     width: 80px;
@@ -1281,6 +1340,15 @@ li{
     filter: grayscale(1);
     position: absolute;
 }
+.product-home-2 .dots-2{
+    width: 160px;
+    opacity: 0.4;
+    bottom: 0px;
+    left: -15px;
+    filter: grayscale(1);
+    position: absolute;
+}
+
 @keyframes natureanimate {
     0%,100%{
         transform: translate(20px,-50px);
@@ -1309,10 +1377,11 @@ li{
 }
 .product-home{
     background: rgb(255, 254, 254);
+    /* background: url('../img/background-shape.png'); */
 }
 .product-home h1{
     font-size: 30px;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 15px;
     font-weight: bold;
 }

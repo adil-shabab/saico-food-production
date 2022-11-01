@@ -1,3 +1,17 @@
+
+
+
+
+$(document).ready(function(){
+    setTimeout(()=> {
+        $('.loader').remove();
+    } , 1000); // after 5 sec it will remove.
+});
+
+
+
+
+
 // category slider 
 $('.category-carousel').owlCarousel({
     loop:true,
