@@ -333,7 +333,6 @@ li{
     align-items: center;
     background: url('../img/about-bg.png');
     background-repeat: no-repeat;
-    z-index: -10;
 }
 .about-us .dots{
     position: absolute;
