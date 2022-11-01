@@ -1046,6 +1046,9 @@ li{
     overflow: hidden;
     z-index: 0;
 }
+.signup-section .input-section button{
+    
+}
 .signup-section .text-section .signup-btn::before{
     content: "";
     position: absolute;
