@@ -999,7 +999,7 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.signup-section .row{
+.signup-section .first-row{
     padding: 50px 0px 0px;
 }
 .signup-section .text-section{
@@ -1010,8 +1010,15 @@ li{
     border: none;
     outline: none;
 }
+.signup-section .input-box{
+    max-width:450px;
+    padding: 10px;
+}
+.signup-section .input-box i{
+    color: #D74039;
+}
 .signup-section .text-section .input-section{
-    max-width: 75%;
+    max-width: 45%;
     margin-top: 30px;
     padding: 6px;
     display: flex;
@@ -1024,31 +1031,7 @@ li{
     font-size: 35px;
     font-weight: bold;
 }
-.signup-section .text-section .input-section i{
-    color: #D74039;
-    font-size: 21px;
-    margin-left: 15px;
-}
-.signup-section .text-section .para{
-    width: 75%;
-}
-.signup-section .text-section .signup-btn{
-    border: none;
-    outline: none;
-    background: #D74039;
-    padding: 10px;
-    border-radius: 3px;
-    color: white;
-    border: 1px solid #D74039;
-    transition: 0.5s;
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
-}
-.signup-section .input-section button{
-    
-}
+
 .signup-section .text-section .signup-btn::before{
     content: "";
     position: absolute;
@@ -2162,7 +2145,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
         max-width: 100%;
     }
     .signup-section .text-section input{
-        margin-left: 10px;
+        padding-left: 10px;
     }
     .testimonialSection .testimonialCarousel .testimonialcard .review{
         padding: 5px 10px;
