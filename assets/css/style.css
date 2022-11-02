@@ -539,6 +539,9 @@ li{
 .mobile-view-carousel{
     display: none;
 }
+.tab-view-carousel{
+    display: none;
+}
 
 
 
@@ -658,6 +661,9 @@ li{
         display: block;
     }
     .desktop-view-carousel{
+        display: none;
+    }
+    .tab-view-carousel{
         display: none;
     }
     .mobile-view-carousel img{
