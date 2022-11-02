@@ -132,8 +132,8 @@ li{
     left: 0;
     position: fixed;
     display: block;
-    opacity: 0.8;
-    background-color:#221e1e;
+    opacity: .9;
+    background-color:#000;
     z-index: 99;
     text-align: center;
     display: flex;
