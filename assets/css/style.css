@@ -217,7 +217,8 @@ li{
 .navbar{
     padding: 5px;
     --bs-navbar-padding-y: 0rem !important;
-    z-index: 1;
+    z-index: 11;
+    transition: 0.6s;
     height: 10vh;
 }
 .navbar .navbar-brand img{
@@ -535,7 +536,9 @@ li{
     right: 55px;
     z-index: 0;
 }
-
+.mobile-view-carousel{
+    display: none;
+}
 
 
 
@@ -600,6 +603,18 @@ li{
     .about-us .right-section{
         padding-left: 30px;
     }
+    .mobile-view-carousel{
+        display: none;
+    }
+    .desktop-view-carousel{
+        display: none;
+    }
+    .tab-view-carousel{
+        display: block;
+    }
+    .tab-view-carousel img{
+        min-height: 85vh;
+    }
 }
 
 /* mobile size  */
@@ -638,6 +653,15 @@ li{
     .about-us .right-section{
         padding-left: 0px;
         padding: 12px;
+    }
+    .mobile-view-carousel{
+        display: block;
+    }
+    .desktop-view-carousel{
+        display: none;
+    }
+    .mobile-view-carousel img{
+        min-height: 85vh;
     }
 }
 

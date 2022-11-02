@@ -5,12 +5,19 @@
 $(document).ready(function(){
     setTimeout(()=> {
         $('.loader').remove();
-    } , 10); // after 5 sec it will remove.
+    } , 800); // after 5 sec it will remove.
 });
 
 
 
-
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 150) {
+        $('.navbar').addClass('fixed-top bg-white z-index')
+    }
+    else{
+        $('.navbar').removeClass('fixed-top')
+    }
+  });
 
 // category slider 
 $('.category-carousel').owlCarousel({
