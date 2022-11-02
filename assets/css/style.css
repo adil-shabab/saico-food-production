@@ -2312,7 +2312,18 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     font-weight: 700;
 }
 
-
+@media only screen and (max-width:767px){
+    .contact-banner h3{
+        font-size: 40px;
+        line-height: 50px;
+        color: #fff;
+        font-weight: 700;
+    }
+    .contact-banner{
+        height: 200px;
+    }
+    
+}
 
 
 
