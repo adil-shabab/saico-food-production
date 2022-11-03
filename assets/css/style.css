@@ -379,7 +379,7 @@ li{
 }
 .category-carousel .item .packet-img{
     position: absolute;
-    width: 200px;
+    width: 220px;
     transition: 0.8s;
     z-index: 1;
     bottom: 20px;
@@ -437,6 +437,10 @@ li{
 .about-us .left-section{
     position: relative;
 }
+.about-us .left-section img{
+    transition: 0.2s;
+}
+
 .about-us .left-section .about-img{
     width: 70%;
     z-index: 1;
@@ -712,7 +716,7 @@ li{
 }
 .counter-section::before{
     content: '';
-    background: url('../img/bg-3.png');
+    background: url('../img/bg.jpg');
     background-size: cover;
     z-index: -1;
     background-position: center;
@@ -807,8 +811,20 @@ li{
 }
 .best-products h2{
     font-weight: bolder;
+    position: relative;
     font-size: 35px;
     margin-bottom: 20px;
+}
+.best-products h2::after{
+    content: '';
+    top: 13px;
+    background: url('../img/click.png');
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
 }
 .best-products .head-txt{
     width: 50%;
@@ -869,6 +885,9 @@ li{
     position: relative;
     /* background: #D74039; */
     padding: 50px 0px;
+}
+.banner-section .star{
+    position: absolute;
 }
 .banner-section h2{
     color: white;
