@@ -722,7 +722,7 @@ li{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: 0.90;
+    filter: brightness(0.7);
 }
 .counter-section .box .number{
     font-size: 50px;
@@ -902,6 +902,7 @@ li{
     z-index: -1;
     opacity: 0.9;
     right: 0px;
+    filter: brightness(0.8);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2063,6 +2064,9 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 .footer-container{
    color: white;
    background: #D74039;
+}
+.footer-container a{
+    color: white;
 }
 .footer-container .logo-section{
     display: flex;
