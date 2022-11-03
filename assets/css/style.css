@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Nunito+Sans&family=Poppins&display=swap');
 /* global css  */
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     box-sizing: border-box;
@@ -222,7 +225,7 @@ li{
     height: 10vh;
 }
 .navbar .navbar-brand img{
-    width: 85px;
+    width: 97px;
 }
 .navbar .navbar-nav .nav-item a.active{
     color: #ED1B24;
@@ -422,6 +425,7 @@ li{
     position: relative;
     align-items: center;
     background: url('../img/about-bg.png');
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .about-us .dots{
@@ -429,6 +433,18 @@ li{
     bottom: 0px;
     left: 0px;
 }
+.about-us .big-shape{
+    width: 100px;
+    left: 0px;
+    position: absolute;
+    top: -21px;
+}
+.about-us .small-shape{
+    top: -27px;
+    position: absolute;
+    left: 105px;
+}
+
 .about-us .left-section{
     position: relative;
 }
@@ -863,7 +879,7 @@ li{
     min-height: 30vh;
     position: relative;
     /* background: #D74039; */
-    padding: 50px 100px;
+    padding: 50px 0px;
 }
 .banner-section h2{
     color: white;
@@ -1323,8 +1339,7 @@ li{
 
 /* about products css starts  */
 .about-products img{
-    border-radius: 50%;
-    width: 75%;
+    width: 82%;
 }
 .about-products{
     margin-top: 120px;
@@ -1361,6 +1376,17 @@ li{
     padding-bottom: 80px;
     background: url('../img/about-bg.png');
     background-repeat: no-repeat;
+}
+.product-home-2 .big-shape{
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    width: 100px;
+}
+.product-home-2 .small-shape{
+    position: absolute;
+    top: 68px;
+    left: 95px;
 }
 .product-home-2 .nature-2{
     width: 80px;
@@ -1458,7 +1484,7 @@ li{
     font-size: 17px;
     position: relative;
     font-weight: bold;
-    margin-top: -5px;
+    margin-top: 17px;
 }
 .product-home .box h5::before{
     content: '';
@@ -1607,6 +1633,12 @@ li{
     }
     .product-home h1{
         font-size: 24px;
+    }
+    .big-shape{
+        display: none;
+    }
+    .small-shape{
+        display: none;
     }
 }
 /* .banner section css end  */
