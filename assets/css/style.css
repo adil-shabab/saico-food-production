@@ -298,7 +298,7 @@ li{
 
 
 /* home slider css start  */
-#carouselExampleIndicators .carousel-inner{
+#carouselExampleIndicators .carousel-inner img{
     height: 85vh;
 }
 .carousel-indicators [data-bs-target].active{
@@ -548,9 +548,6 @@ li{
 .mobile-view-carousel{
     display: none;
 }
-.tab-view-carousel{
-    display: none;
-}
 
 
 
@@ -618,15 +615,6 @@ li{
     .mobile-view-carousel{
         display: none;
     }
-    .desktop-view-carousel{
-        display: none;
-    }
-    .tab-view-carousel{
-        display: block;
-    }
-    .tab-view-carousel img{
-        min-height: 85vh;
-    }
 }
 
 /* mobile size  */
@@ -670,9 +658,6 @@ li{
         display: block;
     }
     .desktop-view-carousel{
-        display: none;
-    }
-    .tab-view-carousel{
         display: none;
     }
     .mobile-view-carousel img{
@@ -723,7 +708,7 @@ li{
     background-repeat: no-repeat;
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 0px; 
     bottom: 0px;
     left: 0px;
     filter: brightness(0.7);
@@ -2371,7 +2356,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1750px) {
     .category-carousel .item{
         padding: 14% 15%;
     }
