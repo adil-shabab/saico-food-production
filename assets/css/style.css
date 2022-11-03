@@ -286,18 +286,7 @@ li{
 .offcanvas-body .social-media-icons i{
     margin-right: 15px;
     font-size: 32px;
-}
-.offcanvas-body .social-media-icons i.facebook{
-    color: #4267B2;
-}
-.offcanvas-body .social-media-icons i.twitter{
-    color: #00acee;
-}
-.offcanvas-body .social-media-icons i.instagram{
-    color: #cd486b;
-}
-.offcanvas-body .social-media-icons i.whatsapp{
-    color:  #25D366;
+    color:  #D74039;
 }
 @media screen and (max-width:450px) {
     .offcanvas{
