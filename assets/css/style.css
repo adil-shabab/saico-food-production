@@ -2327,3 +2327,11 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 
 
 
+@media screen and (min-width:1600px) {
+    .category-carousel .item{
+        padding: 14% 15%;
+    }
+    .category-carousel .item .packet-img{
+        width: 283px;
+    }
+}
