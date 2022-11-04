@@ -2360,6 +2360,9 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .category-carousel .item{
         padding: 14% 15%;
     }
+    .navbar .navbar-brand img{
+        width: 98px;
+    }
     .category-carousel .item .packet-img{
         width: 283px;
     }
