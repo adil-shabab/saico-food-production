@@ -686,6 +686,117 @@ li{
 
 
 
+
+
+/* spices section css start  */
+.spice-section{
+    margin-bottom: 65px;
+}
+.spice-section .shape{
+    position: absolute;
+    width: 90px;
+    right: 25px;
+    bottom: 55px;
+}
+.spice-section .left-section,
+.spice-section .right-section{
+    width: 100%;
+    height: 100%;
+}
+.spice-section .left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.spice-section .desktop-view .right-section{
+    justify-content: flex-end;
+}
+.spice-section .mobile-view .right-section{
+    justify-content: center;
+}
+.spice-section .mobile-view{
+    display: none;
+}
+.spice-section .left-section span{
+    position: relative;
+    margin-left: 35px;
+    color: #D74039;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
+.spice-section .left-section span::before{
+    content: '---';
+    display: block;
+    position: absolute;
+    color: black;
+    left: -35px;
+}
+.spice-section .left-section h2{
+    font-weight: bolder;
+    margin-top: 12px;
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+.spice-section .left-section p{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.spice-section .left-section .contact-btn{
+    outline: none;
+    background: #D74039;
+    color: white;
+    padding: 8px 18px;
+    width:156px;
+    border: 1px solid #D74039;
+    transition: 0.5s;
+    margin-top:20px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+.spice-section .left-section .contact-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: white;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.spice-section .left-section .contact-btn:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.spice-section .left-section .contact-btn:hover{
+    color: #D74039;
+}
+@media screen and (max-width: 767px) {
+    .spice-section .mobile-view{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .spice-section .desktop-view{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px) {
+    .spice-section .shape{
+        display: none;
+    }
+}
+/* spices section css end */
+
+
+
+
+
+
 /* counter css section starts  */
 .counter-section{
     width: 100%;

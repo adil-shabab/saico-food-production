@@ -5,7 +5,7 @@
 $(document).ready(function(){
     setTimeout(()=> {
         $('.loader').remove();
-    } , 800); // after 5 sec it will remove.
+    } , 800); // after 8 sec it will remove.
 });
 
 
