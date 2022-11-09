@@ -1108,7 +1108,7 @@ li{
     z-index: -1;
     opacity: 0.8;
     right: 0px;
-    filter: brightness(0.5);
+    filter: brightness(0.3);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2115,6 +2115,16 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 /* single blog page section css starts  */
 .single-blog-section{
     margin-top: 40px;
+}
+.single-blog-section .description h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+.single-blog-section .description p{
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .single-blog-section .date{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
