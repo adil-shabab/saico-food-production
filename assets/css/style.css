@@ -743,15 +743,12 @@ li{
 }
 .category-section .txt-section h5{
     font-weight: bold;
-    font-size: 23px;
+    font-size: 19px;
     margin-bottom: 10px;
 }
 .category-section .txt-section p{
     margin-top: 10px;
     font-size: 15px;
-}
-.category-section .column{
-    padding: 5px 45px;
 }
 .category-section .box:hover{
     color: white;
