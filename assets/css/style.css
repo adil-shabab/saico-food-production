@@ -120,6 +120,42 @@ li{
 
 
 
+/* modal css start */
+#staticBackdrop input,
+#staticBackdrop textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin-top: 30px;
+}
+#staticBackdrop button{
+    margin-bottom: 35px;
+    margin-right: 17px;
+    margin-top: 15px;
+}
+.modal-content #close{
+    padding: 5px 12px;
+    border-radius: 50%;
+    background: #D74039;
+    color: white;
+    border: 1px solid #D74039;
+    font-size: 17px;
+}
+.modal-content h3{
+    padding-top: 45px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d74039;
+    position: relative;
+}
+.modal-content h3::after{
+    content: '';
+    
+}
+/* modal css end */
+
+
 
 
 
@@ -516,9 +552,31 @@ li{
 }
 
 .about-us .right-section h3{
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 25px;
+    position: relative;
     font-weight: bold;
+}
+.about-us .right-section h3::after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../img/cursor-2.png');
+    position: absolute;
+    top: 7px;
+}
+.about-us .right-section h3 span{
+    color: #D74039;
+}
+.about-us .box-fresh{
+    /* border: 1px solid #d74039; */
+    width: 222px;
+    padding: 6px 18px;
+    border-radius: 4px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px;
+    /* background-color: #eee; */
+    color: black;
+    border-left: 5px solid #d74039;
 }
 .about-us .right-section p{
     font-size: 15px;

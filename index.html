@@ -109,7 +109,7 @@
                   <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
               </ul>
-              <button class="ms-5 rounded enquiry button-full">Contact Us</button>
+              <button type="button" class="ms-5 rounded enquiry button-full" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enquire Now</button>
             </div>
           </div>
       </nav>
@@ -144,6 +144,40 @@
     </div>
   </div>
 
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <form class="modal-content">
+        <div class="d-flex justify-content-between">
+          <h3 class="head-txt">Enquire Now</h3>
+          <button id="close" type="button" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+      <div class="modal-body row">
+        <div class="col-md-6 col-12">
+          <input type="text" required placeholder="Enter Your Name" >
+        </div>
+        <div class="col-md-6 col-12">
+          <input type="text" required placeholder="Enter Your Location">
+        </div>
+        <div class="col-md-6 col-12">
+          <input type="number" required placeholder="Enter Your Phone">
+        </div>
+        <div class="col-md-6 col-12">
+          <input type="email" required placeholder="Enter Your Email">
+        </div>
+        <div class="col-12">
+          <textarea required name="" id="" cols="15" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="d-flex justify-content-end">
+        <button type="submit" class="button-full">Message</button>
+      </div>
+    </form>
+  </div>
+</div>
 
 
 
@@ -285,16 +319,18 @@
             </div>
             <div class="d-flex justify-content-center flex-column col-md-6 col-12">
               <div class="right-section">
-                <h3 data-aos="fade-down" data-aos-duration="800">About Us</h3>
-                <p data-aos="fade-up" data-aos-duration="700">The enviable brand equity and leadership position in the market as its sheet strength Saico spices had made quality and purity the hall-marks of its product without compromising on the original quality of the raw materials. Saico provides highest quality at lower price. It has enabled our customers to repose their confidence in us making Saico always their first confidence catering the real taste of our customers we pursue our cherished objective-consistency in quality and purity-relentlessly.</p>
+                <h3 data-aos="fade-down" data-aos-duration="800">Saico <span>Foods</span></h3>
+                <p data-aos="fade-up" data-aos-duration="700">The enviable brand equity and leadership position in the market as its sheet strength Saico spices had made quality and purity the hall-marks of its product without compromising on the original quality of the raw materials. Saico provides highest quality at lower price.</p>
+                <p data-aos="fade-up" data-aos-duration="700"> It has enabled our customers to repose their confidence in us making Saico always their first confidence catering the real taste of our customers we pursue our cherished objective-consistency in quality and purity-relentlessly.</p>
+
                 <!-- <p data-aos="fade-up" data-aos-duration="600">Spicy, tangy and taste giving saico has already become a household name in India and abroad. Saico spices, based in Calicut, Kerala is the leading manufacturer of the increasingly popular Saico brand of curry powders, coffee, pickles, pickle powders, Atta, Vinegar, coconut oil etc.</p> -->
-                <div class="mb-2 d-flex align-items-center">
-                  <img data-aos="fade-down" data-aos-duration="800" class="me-3" src="assets/img/cook-book.png" alt="">
-                  <p data-aos="fade-down" data-aos-duration="800" class="m-0">Fresh Incredients</p>
+                <div data-aos="fade-down" data-aos-duration="800" class="mb-2 d-flex align-items-center box-fresh">
+                  <img class="me-3" src="assets/img/cook-book.png" alt="">
+                  <p class="m-0">Fresh Incredients</p>
                 </div>
-                <div class="mb-2 d-flex align-items-center">
-                  <img data-aos="fade-down" data-aos-duration="800" class="me-3" src="assets/img/shield.png" alt="">
-                  <p data-aos="fade-down" data-aos-duration="800" class="m-0">Quality Products</p>
+                <div data-aos="fade-down" data-aos-duration="800" class="mb-2 d-flex align-items-center box-fresh">
+                  <img  class="me-3" src="assets/img/shield.png" alt="">
+                  <p class="m-0">Quality Products</p>
                 </div>
                 <button data-aos="fade-down" data-aos-duration="500" class="mt-5 button">Read More</button>
               </div>
