@@ -4,6 +4,10 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
 *{
     margin: 0;
     box-sizing: border-box;
@@ -688,14 +692,96 @@ li{
 
 
 
+/* category section css start  */
+.category-section{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    position: relative;
+}
+.category-section .dots{
+    position: absolute;
+    bottom: -65px;
+    left: -75px;
+}
+.category-section .right-dots{
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+.category-section .img-section{
+    position: relative;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+}
+.category-section .box{
+    color: black;
+    background: white;
+    transition: 0.8s;
+    padding: 25px;
+    border-radius: 5px;
+}
+.category-section .box.active{
+    color: white;
+    background: #D74039;
+}
+.category-section .img-section .smoke{
+    width: 180px;
+    top: -25px;
+    z-index: 0;
+    position: absolute;
+}
+.category-section .img-section .item{
+    z-index: 1;
+    margin-top: 27px;
+}
+.category-section .txt-section{
+    margin-top: 95px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.category-section .txt-section h5{
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.category-section .txt-section p{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.category-section .column{
+    padding: 5px 45px;
+}
+.category-section .box:hover{
+    color: white;
+    background: #D74039;
+}
+/* category section css end */
+
+
+
+
+
+
 /* spices section css start  */
 .spice-section{
-    margin-bottom: 65px;
+    margin-bottom: 75px;
+    margin-top: 75px;
+    position: relative;
+    overflow-x: hidden;
+}
+.spice-section .dots{
+    position: absolute;
+    bottom: 0px;
+    right: -70px;
 }
 .spice-section .shape{
     position: absolute;
     width: 90px;
     right: 25px;
+    z-index: -1;
+    opacity: 0.8;
     bottom: 55px;
 }
 .spice-section .left-section,
@@ -784,12 +870,20 @@ li{
     .spice-section .desktop-view{
         display: none;
     }
-}
-@media screen and (min-width: 768px) {
+    .category-section .column{
+        padding: 5px 15px;
+    }
     .spice-section .shape{
         display: none;
     }
+    .category-section .right-dots{
+        display: none;
+    }
+    .category-section .dots{
+        display: none;
+    }
 }
+
 /* spices section css end */
 
 

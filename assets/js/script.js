@@ -9,7 +9,6 @@ $(document).ready(function(){
 });
 
 
-
 $(window).scroll(function(){
     if ($(this).scrollTop() > 150) {
         $('.navbar').addClass('fixed-top bg-white z-index')
