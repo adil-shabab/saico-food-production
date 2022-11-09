@@ -339,8 +339,8 @@ li{
  .category-carousel .item h4{
     font-weight: bold;
     margin-bottom: 15px;
-    font-size: 33px;
-    width: 50%;
+    font-size: 30px;
+    width: 55%;
 }
 .category-carousel .item p{
     font-size: 13px;
@@ -1216,6 +1216,7 @@ li{
     padding: 36px 0px 32px;
     background: #D74039;
     margin-bottom: 60px;
+    margin-top: 80px;
 }
 .award-section h2{
     font-weight: bold;
