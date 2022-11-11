@@ -14,10 +14,7 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-
-
   <!-- <link rel="icon" href="assets/img/logo.png"> -->
-
 
   <!-- og content  -->
   <meta property="og:title" content="Saico Foods" />
@@ -26,7 +23,6 @@
   <meta property="og:description" content="Saico Foods | Taste the Flavour of Tradition" />
   <meta property="og:image" content="http://saico-foods.com/assets/img/logo.png" />
 
-
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -34,11 +30,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
   <!-- slick css  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 
   <!-- custom css  -->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -46,7 +40,6 @@
   <!-- aos cdn  -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
-
   <!-- fontawesome cdn  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -54,70 +47,10 @@
 
 <body>
 
-  <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_6hrplbhl.json"  background="transparent"  speed="0.4"  style="width: 80px; height: 80px;position: fixed; bottom: 25px;width: 80px;z-index: 11;height: 80px;left: 25px;"  loop autoplay></lottie-player>
+  <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_6hrplbhl.json"  background="transparent"  speed="0.4"  style="width: 60px; height: 60px;position: fixed; bottom: 25px;z-index: 11;left: 25px;"  loop autoplay></lottie-player>
 
 
-  <header>
-
-
-
-
-    <!-- top navbar start -->
-    <div class="top-navbar">
-        <div class="left-section">
-            <a href=""><i class="fa-solid fa-phone"></i></a>
-            <p>9876543210</p>
-
-            <a href=""><i class="fa-solid fa-envelope"></i></a>
-            <p>saicofoods@gmail.com</p>
-        </div>
-
-        <div class="right-section">
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
-        </div>
-    </div>
-    <!-- top navbar end -->
-
-
-
-
-        <!-- navbar start -->
-        <nav class="sm-box-shadow navbar navbar-expand-lg navbar-light">
-          <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-              <img class="menu-icon img-fluid" src="assets/img/menu-bar.png" alt="">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="ms-auto navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page"  href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="products.html">Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog.html">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact Us</a>
-                </li>
-              </ul>
-              <button type="button" class="ms-5 rounded enquiry button-full" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enquire Now</button>
-            </div>
-          </div>
-      </nav>
-  
-
-
-
-  </header>
+  <?php include 'include/header.php' ?>
 
   
   <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
@@ -252,8 +185,6 @@
  
  
  
-
-
 
 
     <!-- box slider start -->
@@ -586,129 +517,8 @@
 
 
 
-
-
-
     <!-- testimonial section -->
-    <div class="testimonialSection">
-      <img src="assets/img/dots-1.png" class="dots" alt="">
-      <div class="container">
-          <div data-aos="fade-down" data-aos-duration="400" style="position: relative;" class="col-12">
-              <h2 class="text-center head-txt">What Our Customers <span class="text-white">Say!</span></h2>
-              <img class="head-img" src="assets/img/shape-6.png" alt="">
-          </div>
-          <div class="testimonialCarousel">
-            
-              <div data-aos="fade-down" data-aos-duration="300" class="testimonialcard">
-                  <div class="top">
-                      <div class="profile">
-                          <div>
-                              <img src="assets/img/testimonials/testimonial3.png" alt="" />
-                          </div>
-                          <p>Sara</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                          </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
-                      </div>
-                  </div>
-                  <p class="testimonialHead text-center">It was a very good experience</p>
-                  <div class="review">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
-                  </div>
-              </div>
-
-              <div data-aos="fade-down" data-aos-duration="400" class="testimonialcard">
-                  <div class="top">
-                      <div class="profile">
-                          <div>
-                              <img  src="assets/img/testimonials/testimonial2.png" alt="" />
-                          </div>
-                          <p>Leo</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
-                      </div>
-                  </div>
-                  <p class="testimonialHead text-center">It was a very good experience</p>
-                  <div class="review">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
-                  </div>
-              </div>
-
-              <div data-aos="fade-down" data-aos-duration="600" class="testimonialcard">
-                  <div class="top">
-                      <div class="profile">
-                          <div>
-                              <img src="assets/img/testimonials/testimonial1.png" alt="" />
-                          </div>
-                          <p>Sara</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                          </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
-                      </div>
-                  </div>
-                  <p class="testimonialHead text-center">It was a very good experience</p>
-                  <div class="review">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
-                  </div>
-              </div>
-
-              <div data-aos="fade-down" data-aos-duration="700" class="testimonialcard">
-                  <div class="top">
-                      <div class="profile">
-                          <div>
-                              <img src="assets/img/testimonials/testimonial4.png" alt="" />
-                          </div>
-                          <p>Manuel</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
-                          </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
-                      </div>
-                  </div>
-                  <p class="testimonialHead text-center">It was a very good experience</p>
-                  <div class="review">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu.</p>
-                  </div>
-              </div>              
-          </div>
-      </div>
-    </div>
+    <?php include 'include/testimonial.php' ?>
     <!-- testimonial section ends -->
 
 
@@ -720,33 +530,7 @@
 
 
     <!-- signup for newsletter start  -->
-    <div class="signup-section">
-      <div class="container">
-        <div class="first-row row">
-          <div class="col-lg-5 col-12 text-section">
-            <p data-aos="fade-down" data-aos-duration="600" >$20 discount for your first order</p>
-            <h2 data-aos="fade-down" data-aos-duration="900">Join our newsletter and get...</h2>
-            <p data-aos="fade-down" data-aos-duration="1100" class="para">Join Our email subscription now to get updates on promotions and coupons.</p>
-            <div class="container">
-              <div data-aos="fade-down" data-aos-duration="1100" class="d-flex-full bg-white input-box row">
-                <div class="p-0 col-2 d-flex-full">
-                  <i class="text-center w-100 fa-solid fa-envelope"></i>
-                </div>
-                <div class="p-0 col-6 d-flex-full">
-                  <input type="email" class="w-100" placeholder="Enter Your Email">
-                </div>
-                <div class="p-0 col-4 d-flex-full">
-                  <button class="w-100">Subscribe</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex-full col-lg-7 col-12">
-
-          </div>
-        </div>
-      </div>
-    </div>
+    <?php include 'include/signup.php' ?>
     <!-- signup for newsletter end  -->
 
 
@@ -762,95 +546,13 @@
 </main>
 
 
-  <footer>
-    <!-- place footer here -->
-    <div class="footer-container">
-      <div class="container">
-        <div class="footer-section">
-          <div class="row">
-            <div class="logo-section col-lg-3 col-12">
-              <img src="assets/img/logo.png" alt="" class="img-fluid">
-              <div class="social-icons d-flex align-items-center">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
-                <a href=""><i class="fa-brands fa-twitter"></i></a>
-              </div>
-            </div>
-            <div class="guide-links col-lg-5 col-12">
-              <h4>Quick Links</h4>
-              <div class="row">
-                <div class="col-lg-4 col-12 row">
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href="index.html"><p>Home</p></a>
-                  </div>
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href="about.html"><p>About</p></a>
-                  </div>
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href=""><p>Gallery</p></a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-12">
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href="products.html"><p>Products</p></a>
-                  </div>
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href="contact.html"><p>Contact</p></a>
-                  </div>
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href=""><p>Recipes</p></a>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-12">
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href=""><p>Blog</p></a>
-                  </div>
-                  <div class="mt-3 d-flex">
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <a href="products.html"><p>Category</p></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="contact col-lg-4 col-12">
-              <h4>Contact Us</h4>
-              <div class="row">
-                <div class="mt-3 d-flex align-items-center">
-                  <i class="fa-solid fa-phone"></i>
-                  <p class="m-0">(+91) 875632509, (+91) 8756432509</p>
-                </div>
-                <div class="mt-3 d-flex align-items-center">
-                  <i class="fa-solid fa-envelope"></i>
-                  <p class="m-0">saicofoods@gmail.com</p>
-                </div>
-                <div class="mt-3 d-flex align-items-center">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p class="m-0">Kodal Nadakkavu, Pantheeramkavu, Kerala</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <p class="last-txt text-center">Copyrights &#169; 2022 Saico Foods. All Rights Reserved</p>
-      </div>
-    </div>
-  </footer>
+  <?php include 'include/footer.php' ?>
 
 
 
 
 
-  <div class="loader">
-    <div class="pre-loader"></div>
-  </div>
+  <?php include 'include/loader.php' ?>
 
 
   <!-- jquery cdn  -->
@@ -870,6 +572,10 @@
     AOS.init();
   </script>
 
+
+  <script>
+    document.getElementById('home-link-active').classList.add('active')
+  </script>
 
 
   <!-- custom js  -->

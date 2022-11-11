@@ -9,6 +9,23 @@ $(document).ready(function(){
 });
 
 
+
+
+current_page = document.getElementById('page').innerHTML
+if (current_page == 'home'){
+  document.getElementById('home-link-active').classList.add('active')
+}else if(current_page == 'about'){
+  document.getElementById('about-link-active').classList.add('active')
+}else if(current_page == 'contact'){
+  document.getElementById('contact-link-active').classList.add('active')
+}else if(current_page == 'product'){
+  document.getElementById('product-link-active').classList.add('active')
+}else if(current_page == 'blog'){
+  document.getElementById('blog-link-active').classList.add('active')
+}
+
+
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 150) {
         $('.navbar').addClass('fixed-top bg-white z-index')
