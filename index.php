@@ -163,13 +163,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/mobile-bg.png" class="d-block w-100" alt="...">
+            <img src="assets/img/carousel-1-mobile.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel-3-mobile.jpg" class="d-block w-100" alt="...">
+            <img src="assets/img/carousel-2-mobile.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel-2-mobile.jpg" class="d-block w-100" alt="...">
+            <img src="assets/img/carousel-3-mobile.png" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

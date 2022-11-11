@@ -212,8 +212,7 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 120px;
-    height: 5vh;
+    padding: 8px 10%;
     background: #ED1B24;
     color: white;
 }
@@ -262,7 +261,8 @@ li{
     --bs-navbar-padding-y: 0rem !important;
     z-index: 11;
     transition: 0.6s;
-    height: 10vh;
+    /* height: 10vh; */
+    padding: 8px 0px;
 }
 .navbar .navbar-brand img{
     width: 82px;
@@ -338,8 +338,11 @@ li{
 
 
 /* home slider css start  */
+#carouselExampleIndicators .carousel-inner{
+    /* height: 85vh; */
+}
 #carouselExampleIndicators .carousel-inner img{
-    height: 85vh;
+    height: auto;
 }
 .carousel-indicators [data-bs-target].active{
     background-color: #ED1B24 !important;
@@ -723,7 +726,7 @@ li{
         display: none;
     }
     .mobile-view-carousel img{
-        min-height: 85vh;
+        height: auto;
     }
 }
 
