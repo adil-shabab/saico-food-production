@@ -22,7 +22,7 @@
     <!-- navbar start -->
     <nav class="sm-box-shadow navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt=""></a>
+        <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
           <img class="menu-icon img-fluid" src="assets/img/menu-bar.png" alt="">
         </button>

@@ -256,13 +256,15 @@
                 <p data-aos="fade-up" data-aos-duration="700"> It has enabled our customers to repose their confidence in us making Saico always their first confidence catering the real taste of our customers we pursue our cherished objective-consistency in quality and purity-relentlessly.</p>
 
                 <!-- <p data-aos="fade-up" data-aos-duration="600">Spicy, tangy and taste giving saico has already become a household name in India and abroad. Saico spices, based in Calicut, Kerala is the leading manufacturer of the increasingly popular Saico brand of curry powders, coffee, pickles, pickle powders, Atta, Vinegar, coconut oil etc.</p> -->
-                <div data-aos="fade-down" data-aos-duration="800" class="mb-2 d-flex align-items-center box-fresh">
-                  <img class="me-3" src="assets/img/cook-book.png" alt="">
-                  <p class="m-0">Fresh Incredients</p>
-                </div>
-                <div data-aos="fade-down" data-aos-duration="800" class="mb-2 d-flex align-items-center box-fresh">
-                  <img  class="me-3" src="assets/img/shield.png" alt="">
-                  <p class="m-0">Quality Products</p>
+                <div>
+                  <div data-aos="fade-down" data-aos-duration="800" class="mb-2 d-flex align-items-center box-fresh">
+                    <img class="me-3" src="assets/img/cook-book.png" alt="">
+                    <p class="m-0">Fresh Incredients</p>
+                  </div>
+                  <div data-aos="fade-down" data-aos-duration="800" class="mb-2 d-flex align-items-center box-fresh">
+                    <img  class="me-3" src="assets/img/shield.png" alt="">
+                    <p class="m-0">Quality Products</p>
+                  </div>
                 </div>
                 <button data-aos="fade-down" data-aos-duration="500" class="mt-5 button">Read More</button>
               </div>
@@ -349,7 +351,7 @@
                 <span data-aos="fade-down" data-aos-duration="400">The only place to go for Spices</span>
                 <h2 data-aos="fade-down" data-aos-duration="600">Find ways to make your food taste better</h2>
                 <p data-aos="fade-down" data-aos-duration="800">Spicy, tangy and taste giving saico has already become a household name in India and abroad. Saico spices, based in Calicut, Kerala is the leading manufacturer of the increasingly popular Saico brand of curry powders, Coffee and Pickles</p>
-                <a data-aos="fade-down" data-aos-duration="1000" href="contact.html"><button class="contact-btn">Contact Us</button></a>
+                <a data-aos="fade-down" data-aos-duration="1000" href="contact.php"><button class="contact-btn">Contact Us</button></a>
             </div>
           </div>
           <div class="desktop-view col-md-6 col-12">

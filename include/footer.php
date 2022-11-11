@@ -19,11 +19,11 @@
                 <div class="col-lg-4 col-12 row">
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="index.html"><p>Home</p></a>
+                    <a href="index.php"><p>Home</p></a>
                   </div>
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="about.html"><p>About</p></a>
+                    <a href="about.php"><p>About</p></a>
                   </div>
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
@@ -33,11 +33,11 @@
                 <div class="col-lg-4 col-12">
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="products.html"><p>Products</p></a>
+                    <a href="products.php"><p>Products</p></a>
                   </div>
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="contact.html"><p>Contact</p></a>
+                    <a href="contact.php"><p>Contact</p></a>
                   </div>
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
@@ -47,11 +47,11 @@
                 <div class="col-lg-4 col-12">
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href=""><p>Blog</p></a>
+                    <a href="blog.php"><p>Blog</p></a>
                   </div>
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="products.html"><p>Category</p></a>
+                    <a href="products.php"><p>Category</p></a>
                   </div>
                 </div>
               </div>
@@ -61,7 +61,7 @@
               <div class="row">
                 <div class="mt-3 d-flex align-items-center">
                   <i class="fa-solid fa-phone"></i>
-                  <p class="m-0">(+91) 875632509, (+91) 8756432509</p>
+                  <p class="m-0">(+91) 875632509 <br>(+91) 8756432509</p>
                 </div>
                 <div class="mt-3 d-flex align-items-center">
                   <i class="fa-solid fa-envelope"></i>

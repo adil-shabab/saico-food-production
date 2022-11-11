@@ -158,7 +158,7 @@
                 <span data-aos="fade-down" data-aos-duration="400">The only place to go for Spices</span>
                 <h2 data-aos="fade-down" data-aos-duration="600">Find ways to make your food taste better</h2>
                 <p data-aos="fade-down" data-aos-duration="800">Spicy, tangy and taste giving saico has already become a household name in India and abroad. Saico spices, based in Calicut, Kerala is the leading manufacturer of the increasingly popular Saico brand of curry powders, Coffee and Pickles</p>
-                <a data-aos="fade-down" data-aos-duration="1000" href="contact.html"><button class="contact-btn">Contact Us</button></a>
+                <a data-aos="fade-down" data-aos-duration="1000" href="contact.php"><button class="contact-btn">Contact Us</button></a>
             </div>
           </div>
           <div class="desktop-view col-md-6 col-12">

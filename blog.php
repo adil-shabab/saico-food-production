@@ -85,7 +85,7 @@
     <div class="blog-body-section">
       <div class="container">
         <div class="row">
-          <div class="p-0 col-lg-4 col-md-6 col-12 col-sm-6">
+          <div class="p-0 col-lg-4 col-md-6 col-12 col-sm-6 mt-4">
             <div  data-aos="fade-down" data-aos-duration="700" class="box">
               <div class="img-section">
                 <img src="assets/img/blog-9.jpg" alt="" class="img-fluid">
@@ -94,11 +94,11 @@
                 <h3>Indian Traditional Spices</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, accusamus quia. Doloribus, ad pariatur maxime autem sint sed odio, voluptate culpa, explicabo quis eum iste!</p>
                 <p class="owner">- Owner -</p>
-                <a href="single-blog.html"><button class="button-full">Read More</button></a>
+                <a href="single-blog.php"><button class="button-full">Read More</button></a>
               </div>
             </div>
           </div>
-          <div class="p-0 col-lg-4 col-md-6 col-12 col-sm-6">
+          <div class="p-0 col-lg-4 col-md-6 col-12 col-sm-6 mt-4">
             <div  data-aos="fade-down" data-aos-duration="800" class="box">
               <div class="img-section">
                 <img src="assets/img/blog-7.png" alt="" class="img-fluid">
@@ -107,11 +107,11 @@
                 <h3>Indian Traditional Spices</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, accusamus quia. Doloribus, ad pariatur maxime autem sint sed odio, voluptate culpa, explicabo quis eum iste!</p>
                 <p class="owner">- Owner -</p>
-                <a href="single-blog.html"><button class="button-full">Read More</button></a>
+                <a href="single-blog.php"><button class="button-full">Read More</button></a>
               </div>
             </div>
           </div>
-          <div class="p-0 col-lg-4 col-md-6 col-12 col-sm-6">
+          <div class="p-0 col-lg-4 col-md-6 col-12 col-sm-6 mt-4">
             <div  data-aos="fade-down" data-aos-duration="900" class="box">
               <div class="img-section">
                 <img src="assets/img/blog-8.jpg" alt="" class="img-fluid">
@@ -120,7 +120,7 @@
                 <h3 >Indian Traditional Spices</h3>
                 <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, accusamus quia. Doloribus, ad pariatur maxime autem sint sed odio, voluptate culpa, explicabo quis eum iste!</p>
                 <p class="owner">- Owner -</p>
-                <a href="single-blog.html"><button class="button-full">Read More</button></a>
+                <a href="single-blog.php"><button class="button-full">Read More</button></a>
               </div>
             </div>
           </div>

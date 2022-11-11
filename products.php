@@ -79,7 +79,7 @@
       <div class="container">
         <div class="mt-5 row">
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="300" class="box mb-3">
                 <img src="assets/img/category-1.jpg" class="img-fluid" alt="">
                 <div>
@@ -89,7 +89,7 @@
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="400" class="box mb-3">
                 <img src="assets/img/category-2.jpg" class="img-fluid" alt="">
                 <h4>Masala Powder</h4>
@@ -97,7 +97,7 @@
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="500" class="box mb-3">
                 <img src="assets/img/category-3.jpg" class="img-fluid" alt="">
                 <h4>Homely Pickles</h4>
@@ -105,7 +105,7 @@
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="600" class="box mb-3">
                 <img src="assets/img/category-4.jpg" class="img-fluid" alt="">
                 <h4>Fruit Jams</h4>
@@ -113,7 +113,7 @@
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="700" class="box mb-3">
                 <img src="assets/img/category-5.jpg" class="img-fluid" alt="">
                 <h4>Tea & Coffee</h4>
@@ -121,7 +121,7 @@
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="800" class="box mb-3">
                 <img src="assets/img/category-6.jpg" class="img-fluid" alt="">
                 <h4>Payasam Mix</h4>
@@ -129,7 +129,7 @@
             </a>
           </div>
           <div class="col-md-4 col-sm-6 col-12">
-            <a href="single-product.html">
+            <a href="single-product.php">
               <div data-aos="slide-up" data-aos-duration="900" class="box mb-3">
                 <img src="assets/img/category-7.jpg" class="img-fluid" alt="">
                 <h4>Soft Drinks</h4>
