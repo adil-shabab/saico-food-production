@@ -44,7 +44,7 @@
               <a id="contact-link-active" class="nav-link" href="contact.php">Contact Us</a>
             </li>
           </ul>
-          <button type="button" class="ms-5 rounded enquiry button-full" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enquire Now</button>
+          <button type="button" class="ms-5 enquiry navbar-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><span>Enquire Now</span></button>
         </div>
       </div>
   </nav>
@@ -64,11 +64,11 @@
 </div>
 <div class="offcanvas-body">
   <ul class="links">
-    <li><a href="index.html"  class="active">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="blog.html" >Blog</a></li>
-    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="index.php" id="offcanvas-home">Home</a></li>
+    <li><a href="about.php" id="offcanvas-about">About</a></li>
+    <li><a href="products.php" id="offcanvas-product">Products</a></li>
+    <li><a href="blog.php"id="offcanvas-blog" >Blog</a></li>
+    <li><a href="contact.php" id="offcanvas-contact">Contact Us</a></li>
     <button id="off-btn" type="button" class="mt-3 rounded enquiry button-full"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Enquire Now</button>
   </ul>
   <div class="social-media-icons">

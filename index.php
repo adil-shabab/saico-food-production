@@ -577,6 +577,8 @@
 
   <script>
     document.getElementById('home-link-active').classList.add('active')
+    document.getElementById('offcanvas-home').classList.add('active')
+
   </script>
 
 

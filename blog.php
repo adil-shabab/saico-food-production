@@ -3,15 +3,9 @@
 
 <head>
   <title>Blog | Saico Foods</title>
-
-
-
-
   <meta name="title" content="Blog | Saico Foods">
   <meta name="description" content="">
   <meta name="keywords" content="">
-
-
 
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -32,8 +26,6 @@
 
   <!-- aos cdn  -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  
-
 
   <!-- custom css  -->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -171,6 +163,8 @@
 
   <script>
     document.getElementById('blog-link-active').classList.add('active')
+    document.getElementById('offcanvas-blog').classList.add('active')
+
   </script>
 
   <!-- custom js  -->
@@ -179,7 +173,6 @@
   <script src="assets/js/jquery.waypoints.min.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/SmoothScrollMouseWheel.js"></script>
-
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"> </script>

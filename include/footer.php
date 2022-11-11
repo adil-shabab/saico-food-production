@@ -13,7 +13,7 @@
                 <a href=""><i class="fa-brands fa-twitter"></i></a>
               </div>
             </div>
-            <div class="guide-links col-lg-5 col-12">
+            <div class="guide-links col-lg-3 col-12">
               <h4>Quick Links</h4>
               <div class="row">
                 <div class="col-lg-4 col-12 row">
@@ -27,10 +27,37 @@
                   </div>
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href=""><p>Gallery</p></a>
+                    <a href="products.php"><p>Products</p></a>
+                  </div>
+                  <div class="mt-3 d-flex">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="blog.php"><p>Blog</p></a>
                   </div>
                 </div>
-                <div class="col-lg-4 col-12">
+              </div>
+            </div>
+            <div class="guide-links col-lg-3 col-12">
+              <h4>Quick Links</h4>
+              <div class="row">
+                <div class="col-lg-4 col-12 row">
+                  <div class="mt-3 d-flex">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="index.php"><p>Home</p></a>
+                  </div>
+                  <div class="mt-3 d-flex">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="about.php"><p>About</p></a>
+                  </div>
+                  <div class="mt-3 d-flex">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="products.php"><p>Products</p></a>
+                  </div>
+                  <div class="mt-3 d-flex">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <a href="blog.php"><p>Blog</p></a>
+                  </div>
+                </div>
+                <!-- <div class="col-lg-4 col-12">
                   <div class="mt-3 d-flex">
                     <i class="fa-solid fa-chevron-right"></i>
                     <a href="products.php"><p>Products</p></a>
@@ -53,10 +80,10 @@
                     <i class="fa-solid fa-chevron-right"></i>
                     <a href="products.php"><p>Category</p></a>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div>
-            <div class="contact col-lg-4 col-12">
+            <div class="contact col-lg-3 col-12">
               <h4>Contact Us</h4>
               <div class="row">
                 <div class="mt-3 d-flex align-items-center">

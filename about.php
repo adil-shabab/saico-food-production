@@ -259,6 +259,7 @@
 
   <script>
     document.getElementById('about-link-active').classList.add('active')
+    document.getElementById('offcanvas-about').classList.add('active')
   </script>
 
   <!-- custom js  -->

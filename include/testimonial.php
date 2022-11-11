@@ -13,19 +13,18 @@
                           <div>
                               <img src="assets/img/testimonials/testimonial3.png" alt="" />
                           </div>
-                          <p>Sara</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                          <div class="d-flex flex-column ms-3">
+                            <p>Manuel</p>
+                            <div class="starRating">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
                           </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
                       </div>
                   </div>
                   <p class="testimonialHead text-center">It was a very good experience</p>
@@ -40,19 +39,18 @@
                           <div>
                               <img  src="assets/img/testimonials/testimonial2.png" alt="" />
                           </div>
-                          <p>Leo</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                          <div class="d-flex flex-column ms-3">
+                            <p>Manuel</p>
+                            <div class="starRating">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
                           </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
                       </div>
                   </div>
                   <p class="testimonialHead text-center">It was a very good experience</p>
@@ -67,19 +65,18 @@
                           <div>
                               <img src="assets/img/testimonials/testimonial1.png" alt="" />
                           </div>
-                          <p>Sara</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                          <div class="d-flex flex-column ms-3">
+                            <p>Manuel</p>
+                            <div class="starRating">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
                           </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
                       </div>
                   </div>
                   <p class="testimonialHead text-center">It was a very good experience</p>
@@ -94,19 +91,18 @@
                           <div>
                               <img src="assets/img/testimonials/testimonial4.png" alt="" />
                           </div>
-                          <p>Manuel</p>
-                      </div>
-                      <div class="starRating">
-                          <div>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-regular fa-star"></i>
+                          <div class="d-flex flex-column ms-3">
+                            <p>Manuel</p>
+                            <div class="starRating">
+                                <div>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                            </div>
                           </div>
-                      </div>
-                      <div class="google">
-                          <img src="assets/img/testimonials/google1.svg" alt="" />
                       </div>
                   </div>
                   <p class="testimonialHead text-center">It was a very good experience</p>

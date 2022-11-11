@@ -200,6 +200,8 @@
 
   <script>
     document.getElementById('blog-link-active').classList.add('active')
+    document.getElementById('offcanvas-blog').classList.add('active')
+
   </script>
 
   <!-- custom js  -->

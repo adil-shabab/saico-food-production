@@ -213,6 +213,7 @@
 
   <script>
     document.getElementById('product-link-active').classList.add('active')
+    document.getElementById('offcanvas-product').classList.add('active')
   </script>
 
 

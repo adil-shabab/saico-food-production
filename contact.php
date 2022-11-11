@@ -36,6 +36,9 @@
   <link rel="stylesheet" href="assets/css/style.css">
   
 
+  <!-- lottie  -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
   <!-- fontawesome cdn  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -51,7 +54,7 @@
 
   <main>
     <div class="contact-banner">
-        <h3>Contact Us</h3>
+      <h3>Contact Us</h3>
     </div>
     <div class="d-flex-full contact-us-home">
         <div class="container">
@@ -95,7 +98,10 @@
                     </div>
                 </div>
                 <div class="right-section col-md-6 col-12">
-                    <h3 data-aos="fade-down" data-aos-duration="600">Contact Us</h3>
+                    <div class="head">
+                      <h3 data-aos="fade-down" data-aos-duration="600">Contact <span>Us</span></h3>
+                      <lottie-player class="lottie" src="https://assets4.lottiefiles.com/private_files/lf30_7wnpoppl.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px;"  loop  autoplay></lottie-player>
+                    </div>
                     <form class="row" action="">
                         <div data-aos="fade-down" data-aos-duration="800"  class="name-input col-12 input-field input-effect">
                             <input class="effect-16" type="text" placeholder="" required>
@@ -167,6 +173,8 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
+  
+
   <!-- jquery cdn  -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -185,6 +193,8 @@
 
   <script>
     document.getElementById('contact-link-active').classList.add('active')
+    document.getElementById('offcanvas-contact').classList.add('active')
+
   </script>
 
 

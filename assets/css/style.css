@@ -80,7 +80,54 @@ li{
 .button-full:hover{
     color: #D74039;
 }
-
+.navbar-btn{
+    outline: none;
+    background: #ffffff;
+    color: #ed1b24;
+    padding: 10px 18px;
+    width: 180px;
+    transition: 0.5s;
+    border: none;
+    margin-top: 5px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    border-left: 11px solid #D74039;
+    box-shadow: rgba(111, 111, 120, 0.2) 0px 7px 29px 0px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.navbar-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: #D74039;
+    transition: 0.3s linear;
+    z-index: -1;
+}
+.navbar-btn:hover::before{
+    width: 100%;
+    left: 0;
+    color: #D74039
+}
+.navbar-btn:hover{
+    color: white;
+}
+.navbar-btn span{
+    position: relative;
+}
+.navbar-btn span::after{
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url('../img/cursor-2.png');
+    position: absolute;
+    top: 2px;
+}
 .contact-icons{
     width: 45px;
     margin-right: 25px;
@@ -88,7 +135,7 @@ li{
 .box-left{
     min-width: 100%;
     padding: 30px 20px;
-    background: #dbf4df;
+    background: #c43a341a;
     border-radius: 8px;
     margin-bottom: 25px;
 }
@@ -266,6 +313,21 @@ li{
 }
 .navbar .navbar-brand img{
     width: 82px;
+}
+.navbar li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li a{
+    padding-right: 15px !important;
+    padding-left: 20px !important;
+    padding-bottom: 0px;
+    border-right: 1px solid rgb(223, 223, 223);
+    padding-top: 0px;
+}
+#contact-link-active{
+    border-right: 0px solid black;
 }
 .navbar .navbar-nav .nav-item a.active{
     color: #ED1B24;
@@ -555,19 +617,13 @@ li{
 }
 
 .about-us .right-section h3{
-    font-size: 36px;
+    font-size: 24px;
+    text-transform: uppercase;
     margin-bottom: 25px;
     position: relative;
     font-weight: bold;
 }
-.about-us .right-section h3::after{
-    content: '';
-    width: 24px;
-    height: 24px;
-    background: url('../img/cursor-2.png');
-    position: absolute;
-    top: 7px;
-}
+
 .about-us .right-section h3 span{
     color: #D74039;
 }
@@ -582,7 +638,7 @@ li{
     border-left: 5px solid #d74039;
 }
 .about-us .right-section p{
-    font-size: 15px;
+    font-size: 16px;
     text-align: justify;
     margin-top: 6px;
 }
@@ -1238,8 +1294,8 @@ li{
     line-height: 29px;
     color: #000000;
     margin: 0px;
-    margin-left: 17px;
-    margin-top: 8px;
+    margin-top: 0px;
+    margin-bottom: -7px;
 }
 .testimonialSection .testimonialcard .top .profile span {
     font-style: normal;
@@ -1312,6 +1368,7 @@ li{
 }
 .testimonialSection .starRating i{
     color: goldenrod;
+    font-size: 10px;
 }
   
 /* testimonial css end */
@@ -1918,6 +1975,18 @@ li{
     /* align-items: center; */
     flex-direction: column;
 }
+.contact-us-home .right-section .head{
+    position: relative;
+    width: fit-content;
+}
+.contact-us-home .right-section .head h3 span{
+    color: #D74039;
+}
+.contact-us-home .right-section .head .lottie{
+    position: absolute;
+    right: -80px;
+    top: -29px;
+}
 .contact-us-home .right-section input,
 .contact-us-home .right-section label,
 .contact-us-home .right-section textarea{
@@ -2341,7 +2410,8 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
 /* footer section css starts  */
 .footer-container{
    color: white;
-   background: #D74039;
+   background: rgb(175,18,18);
+   background: linear-gradient(90deg, rgba(175,18,18,1) 0%, rgba(223,25,16,1) 30%);
 }
 .footer-container a{
     color: white;
@@ -2567,7 +2637,7 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     }
     .about-section .right-section .icons{
         max-width: 100%;
-        overflow-x: scroll;
+        /* overflow-x: scroll; */
     }
     .side-img{
         display: none;
@@ -2624,7 +2694,10 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     .contact-banner{
         height: 200px;
     }
-    
+    .spice-section .left-section h2 {
+        font-size: 28px;
+        width: 100%;
+    }
 }
 
 
@@ -2638,5 +2711,12 @@ input[type="text"]{font: 15px/24px "Lato", Arial, sans-serif; color: #333; width
     }
     .category-carousel .item .packet-img{
         width: 283px;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    .about-us .right-section h3{
+        font-size: 40px;
     }
 }
